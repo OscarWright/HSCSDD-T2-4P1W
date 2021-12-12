@@ -1,4 +1,4 @@
-# [4 Pics 1 Word](https://github.com/OscarWright/HSCSDD-T2-4P1W) &#128238; HSC SDD Task 2.
+# [4 Pics 1 Word](https://github.com/OscarWright/HSCSDD-T2-4P1W) 🖼️; HSC SDD Task 2.
 
 Octobox helps you manage your GitHub notifications efficiently so you can spend less time managing and more time getting things done.
 
