@@ -10,8 +10,6 @@ Students are to design and construct a full software solution in Visual Studio (
 
 - [Getting Started](#getting-started)
 	- [Install](#install)
-	- [Desktop usage](#desktop-usage)
-	- [Web extension](#web-extension)
 - [Requirements](#requirements)
 - [Keyboard shortcuts](#keyboard-shortcuts)
 - [Contribute](#contribute)
@@ -26,21 +24,6 @@ Students are to design and construct a full software solution in Visual Studio (
 ### Install
 
 Click here -> [Latest Release](Https://google.com)
-
-### Desktop usage
-
-You can run Octobox locally as a desktop app too if you'd like, using [Nativefier](https://www.npmjs.com/package/nativefier):
-
-```bash
-npm install -g nativefier
-nativefier "https://octobox.io" # Or your own self-hosted URL
-```
-
-This will build a local application (.exe, .app, etc) and put it in your current folder, ready to use.
-
-### Web extension
-
-You can also install the cross-browser [Octobox Web Extension](https://github.com/tfrommen/octobox-web-extension). It is available for [Google Chrome](https://chrome.google.com/webstore/detail/octobox-web-extension/efhkcafmbonnomnimilnephjgeccffdn) and [Mozilla Firefox](https://addons.mozilla.org/en-US/firefox/addon/octobox-web-extension/), but you can also use it with other browsers that support web extensions.
 
 ## Requirements
 
