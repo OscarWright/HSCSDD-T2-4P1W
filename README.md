@@ -1,12 +1,8 @@
 # [4 Pics 1 Word](https://github.com/OscarWright/HSCSDD-T2-4P1W) 🖼️ - HSC SDD Task 2.
 
-## Why is this a thing?
+## Task Specifacations
 
-If you manage any active projects on GitHub, you probably find [GitHub Notifications](https://github.com/notifications) pretty lacking.
-
-Notifications are marked as read and disappear from the list as soon as you load the page or view the email of the notification. This makes it very hard to keep on top of which notifications you still need to follow up on. Most open source maintainers and GitHub staff end up using a complex combination of filters and labels in Gmail to manage their notifications from their inbox. If, like me, you try to avoid email, then you might want something else.
-
-Octobox adds an extra "archived" state to each notification so you can mark it as "done". If new activity happens on the thread/issue/pr, the next time you sync the app the relevant item will be unarchived and moved back into your inbox.
+4 pics 1 word is a popular puzzle game for mobile devices that contains four pictures with one thing in common. The developer of 4 pics 1 word, LOTUM has enlisted you to develop a desktop version of the game. The game must randomise the pictures and letters, include at least six levels, maximum five guesses per word with a hint after the third attempt and a printable scoreboard.
 
 ## Table of Contents
 
