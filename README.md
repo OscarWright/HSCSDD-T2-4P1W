@@ -1,32 +1,5 @@
 # [4 Pics 1 Word](https://github.com/OscarWright/HSCSDD-T2-4P1W) 🖼️ - HSC SDD Task 2.
 
-Octobox helps you manage your GitHub notifications efficiently so you can spend less time managing and more time getting things done.
-
-- **Don't lose track** - Octobox adds an extra "archived" state to each notification so you can mark it as "done". If anything happens on an archived thread, issue or PR, Octobox will move it back into your inbox.
-
-- **Starred notifications** - Let's be honest, you probably don't have a 'favourite' issue but Octobox lets you highlight important notifications with a star so you can come back and find them easily.
-
-- **Enhanced notifications** - Like notifications, but better. With issue/pull-request status, CI status, labels and more shown alongside basic title, organisation, repo and type information.
-
-- **Filter all the things** - Filter notifications by repository, organisation, type, action, state, CI status and reason and keep notifications from bots alongside your regular labels, author and assignees.
-
-- **Search with prefix filters** - No more Jedi mind tricks. Combine a wide range of powerful search filters help you get straight to the notification you're looking for and focus on just what you need.
-
-- **Built for keyboard warriors** - Navigate, triage and manage your notifications like a pro using Gmail-inspired keyboard shortcuts for every function, no mouse required.
-
-- **Open for everyone** - Octobox developers use Octobox to develop Octobox. 100% developed and managed in the open on GitHub under a FLOSS license.
-
-![Screenshot of  Octobox](app/assets/images/screenshot.png)
-
-[![Build Status](https://travis-ci.org/octobox/octobox.svg?branch=master)](https://travis-ci.org/octobox/octobox)
-[![View performance data on Skylight](https://badges.skylight.io/typical/eLvcBBdLmV6k.svg)](https://oss.skylight.io/app/applications/eLvcBBdLmV6k)
-[![Docker](https://img.shields.io/docker/pulls/octoboxio/octobox.svg)](https://hub.docker.com/r/octoboxio/octobox/)
-[![Gitter](https://img.shields.io/gitter/room/octobox/octobox.svg)](https://gitter.im/octobox/octobox)
-[![OpenCollective](https://opencollective.com/octobox/backers/badge.svg)](#backers)
-[![OpenCollective](https://opencollective.com/octobox/sponsors/badge.svg)](#sponsors)
-[![Open Source Helpers](https://www.codetriage.com/andrew/github-inbox/badges/users.svg)](https://www.codetriage.com/andrew/github-inbox)
-[![license](https://img.shields.io/github/license/octobox/octobox.svg)](LICENSE.txt)
-
 ## Why is this a thing?
 
 If you manage any active projects on GitHub, you probably find [GitHub Notifications](https://github.com/notifications) pretty lacking.
