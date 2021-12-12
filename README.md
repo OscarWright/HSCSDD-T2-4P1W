@@ -56,4 +56,4 @@ Press `?` for the help menu.
 
 ## Copyright
 
-[MIT License](LICENSE.md) © 2022 [Oscar Wright](https://github.com/Oscar Wright).
+[MIT License](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/LICENSE) © 2022 [Oscar Wright](https://github.com/Oscar Wright).
