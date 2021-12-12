@@ -56,4 +56,4 @@ Press `?` for the help menu.
 
 ## Copyright
 
-[MITLicense](LICENSE.txt) © 2022 [Oscar Wright](https://github.com/Oscar Wright).
+[MIT License](LICENSE.md) © 2022 [Oscar Wright](https://github.com/Oscar Wright).
