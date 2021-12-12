@@ -25,8 +25,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### Install
 
-You can also host Octobox yourself! See [the installation guide](docs/INSTALLATION.md)
-for installation instructions and details regarding deployment to Heroku, Docker, and more.
+Click here -> [Latest Release](Https://google.com)
 
 ### Desktop usage
 
