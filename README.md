@@ -1,6 +1,6 @@
 # [4 Pics 1 Word](https://github.com/OscarWright/HSCSDD-T2-4P1W) 🖼️ - HSC SDD Task 2.
 
-## Task Specifacations
+## Task specifications
 
 4 pics 1 word is a popular puzzle game for mobile devices that contains four pictures with one thing in common. The developer of 4 pics 1 word, LOTUM has enlisted you to develop a desktop version of the game. The game must randomise the pictures and letters, include at least six levels, maximum five guesses per word with a hint after the third attempt and a printable scoreboard.
 
