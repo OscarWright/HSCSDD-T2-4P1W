@@ -2,5 +2,5 @@
 
 **Repo initialization:**
 
-- [README](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md), [LICENCE](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/LICENSE) and [SECURITY](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/SECURITY.md) files created and populated.
+- [README](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md) and [LICENCE](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/LICENSE) files created and populated.
 
