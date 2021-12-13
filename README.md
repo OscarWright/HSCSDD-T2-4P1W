@@ -10,9 +10,9 @@ Students are to design and construct a full software solution in Visual Studio (
 
 - [Getting Started](#getting-started)
 	- [Install](#install)
-	- [How to play](#How to play)
+	- [How to play](#how-to-play)
 - [Requirements](#requirements)
-- [Changelog](#Changelog)
+- [Changelog](#changelog)
 - [Copyright](#copyright)
 
 ## Getting Started
