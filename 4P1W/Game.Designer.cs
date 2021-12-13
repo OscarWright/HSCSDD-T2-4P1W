@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGame));
-            this.pic1 = new System.Windows.Forms.PictureBox();
-            this.pic2 = new System.Windows.Forms.PictureBox();
-            this.pic3 = new System.Windows.Forms.PictureBox();
-            this.pic4 = new System.Windows.Forms.PictureBox();
             this.g1 = new System.Windows.Forms.Button();
             this.g2 = new System.Windows.Forms.Button();
             this.g3 = new System.Windows.Forms.Button();
@@ -53,48 +50,17 @@
             this.a3 = new System.Windows.Forms.Button();
             this.a2 = new System.Windows.Forms.Button();
             this.a1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic4)).BeginInit();
+            this.pic4 = new System.Windows.Forms.PictureBox();
+            this.pic3 = new System.Windows.Forms.PictureBox();
+            this.pic2 = new System.Windows.Forms.PictureBox();
+            this.pic1 = new System.Windows.Forms.PictureBox();
+            this.imageListAccurate = new System.Windows.Forms.ImageList(this.components);
             this.grbxAns.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pic4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pic1
-            // 
-            this.pic1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pic1.Location = new System.Drawing.Point(69, 12);
-            this.pic1.Name = "pic1";
-            this.pic1.Size = new System.Drawing.Size(150, 150);
-            this.pic1.TabIndex = 0;
-            this.pic1.TabStop = false;
-            // 
-            // pic2
-            // 
-            this.pic2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pic2.Location = new System.Drawing.Point(225, 12);
-            this.pic2.Name = "pic2";
-            this.pic2.Size = new System.Drawing.Size(150, 150);
-            this.pic2.TabIndex = 1;
-            this.pic2.TabStop = false;
-            // 
-            // pic3
-            // 
-            this.pic3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pic3.Location = new System.Drawing.Point(69, 168);
-            this.pic3.Name = "pic3";
-            this.pic3.Size = new System.Drawing.Size(150, 150);
-            this.pic3.TabIndex = 2;
-            this.pic3.TabStop = false;
-            // 
-            // pic4
-            // 
-            this.pic4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pic4.Location = new System.Drawing.Point(225, 168);
-            this.pic4.Name = "pic4";
-            this.pic4.Size = new System.Drawing.Size(150, 150);
-            this.pic4.TabIndex = 3;
-            this.pic4.TabStop = false;
             // 
             // g1
             // 
@@ -287,6 +253,55 @@
             this.a1.Text = "z";
             this.a1.UseVisualStyleBackColor = true;
             // 
+            // pic4
+            // 
+            this.pic4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pic4.Location = new System.Drawing.Point(225, 168);
+            this.pic4.Name = "pic4";
+            this.pic4.Size = new System.Drawing.Size(150, 150);
+            this.pic4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic4.TabIndex = 3;
+            this.pic4.TabStop = false;
+            // 
+            // pic3
+            // 
+            this.pic3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pic3.Location = new System.Drawing.Point(69, 168);
+            this.pic3.Name = "pic3";
+            this.pic3.Size = new System.Drawing.Size(150, 150);
+            this.pic3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic3.TabIndex = 2;
+            this.pic3.TabStop = false;
+            // 
+            // pic2
+            // 
+            this.pic2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pic2.Location = new System.Drawing.Point(225, 12);
+            this.pic2.Name = "pic2";
+            this.pic2.Size = new System.Drawing.Size(150, 150);
+            this.pic2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic2.TabIndex = 1;
+            this.pic2.TabStop = false;
+            // 
+            // pic1
+            // 
+            this.pic1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pic1.Location = new System.Drawing.Point(69, 12);
+            this.pic1.Name = "pic1";
+            this.pic1.Size = new System.Drawing.Size(150, 150);
+            this.pic1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pic1.TabIndex = 0;
+            this.pic1.TabStop = false;
+            // 
+            // imageListAccurate
+            // 
+            this.imageListAccurate.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListAccurate.ImageStream")));
+            this.imageListAccurate.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageListAccurate.Images.SetKeyName(0, "1.png");
+            this.imageListAccurate.Images.SetKeyName(1, "2.png");
+            this.imageListAccurate.Images.SetKeyName(2, "3.png");
+            this.imageListAccurate.Images.SetKeyName(3, "4.png");
+            // 
             // frmGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -312,11 +327,11 @@
             this.Name = "frmGame";
             this.Text = "4 Pics 1 Word";
             this.Load += new System.EventHandler(this.frmGame_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pic4)).EndInit();
             this.grbxAns.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pic4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -347,5 +362,6 @@
         private System.Windows.Forms.Button a3;
         private System.Windows.Forms.Button a2;
         private System.Windows.Forms.Button a1;
+        private System.Windows.Forms.ImageList imageListAccurate;
     }
 }
