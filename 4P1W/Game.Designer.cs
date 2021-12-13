@@ -187,6 +187,7 @@
             this.a8.Size = new System.Drawing.Size(30, 30);
             this.a8.TabIndex = 19;
             this.a8.UseVisualStyleBackColor = true;
+            this.a8.Click += new System.EventHandler(this.a8_Click);
             // 
             // a7
             // 
@@ -196,6 +197,7 @@
             this.a7.Size = new System.Drawing.Size(30, 30);
             this.a7.TabIndex = 18;
             this.a7.UseVisualStyleBackColor = true;
+            this.a7.Click += new System.EventHandler(this.a7_Click);
             // 
             // a6
             // 
@@ -206,6 +208,7 @@
             this.a6.TabIndex = 17;
             this.a6.Text = "a";
             this.a6.UseVisualStyleBackColor = true;
+            this.a6.Click += new System.EventHandler(this.a6_Click);
             // 
             // a5
             // 
@@ -215,6 +218,7 @@
             this.a5.Size = new System.Drawing.Size(30, 30);
             this.a5.TabIndex = 16;
             this.a5.UseVisualStyleBackColor = true;
+            this.a5.Click += new System.EventHandler(this.a5_Click);
             // 
             // a4
             // 
@@ -224,6 +228,7 @@
             this.a4.Size = new System.Drawing.Size(30, 30);
             this.a4.TabIndex = 15;
             this.a4.UseVisualStyleBackColor = true;
+            this.a4.Click += new System.EventHandler(this.a4_Click);
             // 
             // a3
             // 
@@ -233,6 +238,7 @@
             this.a3.Size = new System.Drawing.Size(30, 30);
             this.a3.TabIndex = 14;
             this.a3.UseVisualStyleBackColor = true;
+            this.a3.Click += new System.EventHandler(this.a3_Click);
             // 
             // a2
             // 
@@ -242,6 +248,7 @@
             this.a2.Size = new System.Drawing.Size(30, 30);
             this.a2.TabIndex = 13;
             this.a2.UseVisualStyleBackColor = true;
+            this.a2.Click += new System.EventHandler(this.a2_Click);
             // 
             // a1
             // 
@@ -252,6 +259,7 @@
             this.a1.TabIndex = 12;
             this.a1.Text = "z";
             this.a1.UseVisualStyleBackColor = true;
+            this.a1.Click += new System.EventHandler(this.a1_Click);
             // 
             // pic4
             // 

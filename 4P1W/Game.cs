@@ -28,14 +28,21 @@ namespace _4P1W
             pic3.Image = imageListAccurate.Images[2];
             pic4.Image = imageListAccurate.Images[3];
 
-            int i = 0;
+            /*int i = 0;
 
             foreach(char characters in word1Char)
             {
-                MessageBox.Show((word1Char[i]).ToString());
+                
                 i++;
-            }
+            }*/
 
+
+            Random random = new Random();
+            word1Char = word1Char.OrderBy(x => random.Next()).ToArray();
+            foreach (char i in word1Char)
+            {
+                MessageBox.Show(i.ToString());
+            }
 
         }
 
@@ -55,6 +62,48 @@ namespace _4P1W
             {
                 c.Text = "";
             }
+        }
+
+
+        
+        private void a1_Click(object sender, EventArgs e)
+        {
+            a1.Text = "";
+        }
+
+        private void a2_Click(object sender, EventArgs e)
+        {
+            a2.Text = "";
+        }
+
+        private void a3_Click(object sender, EventArgs e)
+        {
+            a3.Text = "";
+        }
+
+        private void a4_Click(object sender, EventArgs e)
+        {
+            a4.Text = "";
+        }
+
+        private void a5_Click(object sender, EventArgs e)
+        {
+            a5.Text = "";
+        }
+
+        private void a6_Click(object sender, EventArgs e)
+        {
+            a6.Text = "";
+        }
+
+        private void a7_Click(object sender, EventArgs e)
+        {
+            a7.Text = "";
+        }
+
+        private void a8_Click(object sender, EventArgs e)
+        {
+            a8.Text = "";
         }
     }
 }
