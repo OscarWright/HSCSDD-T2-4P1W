@@ -12,6 +12,9 @@ namespace _4P1W
 {
     public partial class frmGame : Form
     {
+        string[] word = { "Accurate", "Accurate", "Accurate", "Accurate", "Accurate" };
+        int index = 0;
+
         public frmGame()
         {
             InitializeComponent();
@@ -19,31 +22,77 @@ namespace _4P1W
 
         private void frmGame_Load(object sender, EventArgs e)
         {
+            game();
+        }
+
+        public void game()
+        {
             
-            // #1 
-       
-            char[] word1Char = ("Accurate").ToCharArray();
-            pic1.Image = imageListAccurate.Images[0];
-            pic2.Image = imageListAccurate.Images[1];
-            pic3.Image = imageListAccurate.Images[2];
-            pic4.Image = imageListAccurate.Images[3];
 
-            /*int i = 0;
+                pic1.Image = imageListAccurate.Images[0];
+                pic2.Image = imageListAccurate.Images[1];
+                pic3.Image = imageListAccurate.Images[2];
+                pic4.Image = imageListAccurate.Images[3];
 
-            foreach(char characters in word1Char)
+
+                char[] wordChar = (word[index]).ToCharArray();
+                Random random = new Random();
+                wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
+
+
+                g1.Text = (wordChar[0].ToString());
+                g2.Text = (wordChar[1].ToString());
+                g3.Text = (wordChar[2].ToString());
+                g4.Text = (wordChar[3].ToString());
+                g5.Text = (wordChar[4].ToString());
+                g6.Text = (wordChar[5].ToString());
+                g7.Text = (wordChar[6].ToString());
+                g8.Text = (wordChar[7].ToString());
+            
+        }
+
+        public void setAnsValue(Button c)
+        {
+
+            if (a1.Text.Equals(""))
             {
-                
-                i++;
-            }*/
-
-
-            Random random = new Random();
-            word1Char = word1Char.OrderBy(x => random.Next()).ToArray();
-            foreach (char i in word1Char)
-            {
-                MessageBox.Show(i.ToString());
+                a1.Text = c.Text;
             }
+            else if (a2.Text.Equals(""))
+            {
+                a2.Text = c.Text;
+            }
+            else if (a3.Text.Equals(""))
+            {
+                a3.Text = c.Text;
+            }
+            else if (a4.Text.Equals(""))
+            {
+                a4.Text = c.Text;
+            }
+            else if (a5.Text.Equals(""))
+            {
+                a5.Text = c.Text;
+            }
+            else if (a6.Text.Equals(""))
+            {
+                a6.Text = c.Text;
+            }
+            else if (a7.Text.Equals(""))
+            {
+                a7.Text = c.Text;
+            }
+            else if (a8.Text.Equals(""))
+            {
+                a8.Text = c.Text;
+                string guess = (a1.Text + a2.Text + a3.Text + a4.Text + a5.Text + a6.Text + a7.Text + a8.Text);
 
+                if (guess == word[index])
+                {
+                    MessageBox.Show("nice");
+                    index++;
+                }
+            }
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -104,6 +153,66 @@ namespace _4P1W
         private void a8_Click(object sender, EventArgs e)
         {
             a8.Text = "";
+        }
+
+        private void g1_Click(object sender, EventArgs e)
+        {
+            setAnsValue(g1);
+            g1.Text = "";
+        }
+
+        private void g2_Click(object sender, EventArgs e)
+        {
+            setAnsValue(g2);
+            g2.Text = "";
+
+        }
+
+        private void g3_Click(object sender, EventArgs e)
+        {
+            setAnsValue(g3);
+            g3.Text = "";
+
+        }
+
+        private void g4_Click(object sender, EventArgs e)
+        {
+            setAnsValue(g4);
+            g4.Text = "";
+
+        }
+
+        private void g5_Click(object sender, EventArgs e)
+        {
+            setAnsValue(g5);
+            g5.Text = "";
+
+        }
+
+        private void g6_Click(object sender, EventArgs e)
+        {
+            setAnsValue(g6);
+            g6.Text = "";
+
+        }
+
+        private void g7_Click(object sender, EventArgs e)
+        {
+            setAnsValue(g7);
+            g7.Text = "";
+
+        }
+
+        private void g8_Click(object sender, EventArgs e)
+        {
+            setAnsValue(g8);
+            g8.Text = "";
+
+        }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

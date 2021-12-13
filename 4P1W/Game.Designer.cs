@@ -38,7 +38,6 @@
             this.g6 = new System.Windows.Forms.Button();
             this.g7 = new System.Windows.Forms.Button();
             this.g8 = new System.Windows.Forms.Button();
-            this.g9 = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.grbxAns = new System.Windows.Forms.GroupBox();
@@ -65,87 +64,86 @@
             // g1
             // 
             this.g1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g1.Location = new System.Drawing.Point(59, 398);
+            this.g1.Location = new System.Drawing.Point(74, 398);
             this.g1.Name = "g1";
             this.g1.Size = new System.Drawing.Size(50, 50);
             this.g1.TabIndex = 12;
             this.g1.UseVisualStyleBackColor = true;
+            this.g1.Click += new System.EventHandler(this.g1_Click);
             // 
             // g2
             // 
             this.g2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g2.Location = new System.Drawing.Point(128, 398);
+            this.g2.Location = new System.Drawing.Point(156, 398);
             this.g2.Name = "g2";
             this.g2.Size = new System.Drawing.Size(50, 50);
             this.g2.TabIndex = 13;
             this.g2.UseVisualStyleBackColor = true;
+            this.g2.Click += new System.EventHandler(this.g2_Click);
             // 
             // g3
             // 
             this.g3.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g3.Location = new System.Drawing.Point(197, 398);
+            this.g3.Location = new System.Drawing.Point(238, 398);
             this.g3.Name = "g3";
             this.g3.Size = new System.Drawing.Size(50, 50);
             this.g3.TabIndex = 14;
             this.g3.UseVisualStyleBackColor = true;
+            this.g3.Click += new System.EventHandler(this.g3_Click);
             // 
             // g4
             // 
             this.g4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g4.Location = new System.Drawing.Point(266, 398);
+            this.g4.Location = new System.Drawing.Point(320, 398);
             this.g4.Name = "g4";
             this.g4.Size = new System.Drawing.Size(50, 50);
             this.g4.TabIndex = 15;
             this.g4.UseVisualStyleBackColor = true;
+            this.g4.Click += new System.EventHandler(this.g4_Click);
             // 
             // g5
             // 
             this.g5.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g5.Location = new System.Drawing.Point(335, 398);
+            this.g5.Location = new System.Drawing.Point(74, 465);
             this.g5.Name = "g5";
             this.g5.Size = new System.Drawing.Size(50, 50);
             this.g5.TabIndex = 16;
             this.g5.UseVisualStyleBackColor = true;
+            this.g5.Click += new System.EventHandler(this.g5_Click);
             // 
             // g6
             // 
             this.g6.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g6.Location = new System.Drawing.Point(91, 469);
+            this.g6.Location = new System.Drawing.Point(156, 465);
             this.g6.Name = "g6";
             this.g6.Size = new System.Drawing.Size(50, 50);
             this.g6.TabIndex = 17;
             this.g6.UseVisualStyleBackColor = true;
+            this.g6.Click += new System.EventHandler(this.g6_Click);
             // 
             // g7
             // 
             this.g7.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g7.Location = new System.Drawing.Point(162, 469);
+            this.g7.Location = new System.Drawing.Point(238, 465);
             this.g7.Name = "g7";
             this.g7.Size = new System.Drawing.Size(50, 50);
             this.g7.TabIndex = 18;
             this.g7.UseVisualStyleBackColor = true;
+            this.g7.Click += new System.EventHandler(this.g7_Click);
             // 
             // g8
             // 
             this.g8.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g8.Location = new System.Drawing.Point(233, 469);
+            this.g8.Location = new System.Drawing.Point(320, 465);
             this.g8.Name = "g8";
             this.g8.Size = new System.Drawing.Size(50, 50);
             this.g8.TabIndex = 19;
             this.g8.UseVisualStyleBackColor = true;
-            // 
-            // g9
-            // 
-            this.g9.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.g9.Location = new System.Drawing.Point(304, 469);
-            this.g9.Name = "g9";
-            this.g9.Size = new System.Drawing.Size(50, 50);
-            this.g9.TabIndex = 20;
-            this.g9.UseVisualStyleBackColor = true;
+            this.g8.Click += new System.EventHandler(this.g8_Click);
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(185, 534);
+            this.btnClear.Location = new System.Drawing.Point(185, 521);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 39);
             this.btnClear.TabIndex = 21;
@@ -206,7 +204,6 @@
             this.a6.Name = "a6";
             this.a6.Size = new System.Drawing.Size(30, 30);
             this.a6.TabIndex = 17;
-            this.a6.Text = "a";
             this.a6.UseVisualStyleBackColor = true;
             this.a6.Click += new System.EventHandler(this.a6_Click);
             // 
@@ -257,7 +254,6 @@
             this.a1.Name = "a1";
             this.a1.Size = new System.Drawing.Size(30, 30);
             this.a1.TabIndex = 12;
-            this.a1.Text = "z";
             this.a1.UseVisualStyleBackColor = true;
             this.a1.Click += new System.EventHandler(this.a1_Click);
             // 
@@ -317,7 +313,6 @@
             this.ClientSize = new System.Drawing.Size(445, 594);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.g9);
             this.Controls.Add(this.g8);
             this.Controls.Add(this.g7);
             this.Controls.Add(this.g6);
@@ -358,7 +353,6 @@
         private System.Windows.Forms.Button g6;
         private System.Windows.Forms.Button g7;
         private System.Windows.Forms.Button g8;
-        private System.Windows.Forms.Button g9;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.GroupBox grbxAns;
