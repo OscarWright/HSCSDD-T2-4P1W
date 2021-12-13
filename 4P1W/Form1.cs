@@ -16,5 +16,16 @@ namespace _4P1W
         {
             InitializeComponent();
         }
+
+        private void btnPlay_Click(object sender, EventArgs e)
+        {
+
+            //Creating a class for the game window
+            frmGame gameWindow = new frmGame();
+            //Showing the game window
+            gameWindow.Show();
+            //Hiding the menu (this form)
+            this.Hide();   
+        }
     }
 }
