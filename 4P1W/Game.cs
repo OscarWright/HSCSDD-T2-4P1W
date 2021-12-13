@@ -21,5 +21,20 @@ namespace _4P1W
         {
 
         }
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            Form1 frm = new Form1();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            foreach(Control c in grbxAns.Controls)
+            {
+                c.Text = "";
+            }
+        }
     }
 }
