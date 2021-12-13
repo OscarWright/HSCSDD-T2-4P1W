@@ -46,6 +46,10 @@ You can use keyboard shortcuts to navigate and perform certain actions:
 
 Press `?` for the help menu.
 
+## Changelog
+
+[Changelog](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/changelog.md)
+
 ## Copyright
 
 [MIT License](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/LICENSE) © 2022 [Oscar Wright](https://github.com/OscarWright).
