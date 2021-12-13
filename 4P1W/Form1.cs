@@ -27,5 +27,15 @@ namespace _4P1W
             //Hiding the menu (this form)
             this.Hide();   
         }
+
+        private void btnHelp_Click(object sender, EventArgs e)
+        {
+            //Creating a class for the help window
+            frmHelp helpWindow = new frmHelp();
+            //showing the help window
+            helpWindow.Show();
+            //Hiding the menu (this form)
+            this.Hide();
+        }
     }
 }

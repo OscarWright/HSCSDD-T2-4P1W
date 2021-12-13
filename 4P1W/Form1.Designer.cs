@@ -29,22 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.picLogo = new System.Windows.Forms.PictureBox();
             this.lblTitle = new System.Windows.Forms.Label();
             this.btnPlay = new System.Windows.Forms.Button();
             this.btnHelp = new System.Windows.Forms.Button();
+            this.picLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // picLogo
-            // 
-            this.picLogo.Image = global::_4P1W.Properties.Resources.unnamed;
-            this.picLogo.Location = new System.Drawing.Point(102, 135);
-            this.picLogo.Name = "picLogo";
-            this.picLogo.Size = new System.Drawing.Size(241, 208);
-            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picLogo.TabIndex = 0;
-            this.picLogo.TabStop = false;
             // 
             // lblTitle
             // 
@@ -76,6 +66,17 @@
             this.btnHelp.TabIndex = 3;
             this.btnHelp.Text = "How to play";
             this.btnHelp.UseVisualStyleBackColor = true;
+            this.btnHelp.Click += new System.EventHandler(this.btnHelp_Click);
+            // 
+            // picLogo
+            // 
+            this.picLogo.Image = global::_4P1W.Properties.Resources.unnamed;
+            this.picLogo.Location = new System.Drawing.Point(102, 135);
+            this.picLogo.Name = "picLogo";
+            this.picLogo.Size = new System.Drawing.Size(241, 208);
+            this.picLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picLogo.TabIndex = 0;
+            this.picLogo.TabStop = false;
             // 
             // Form1
             // 

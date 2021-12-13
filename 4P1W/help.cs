@@ -10,34 +10,21 @@ using System.Windows.Forms;
 
 namespace _4P1W
 {
-    public partial class frmGame : Form
+    public partial class frmHelp : Form
     {
-        public frmGame()
+        public frmHelp()
         {
             InitializeComponent();
-        }
-
-        private void frmGame_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
             //Creating a class for the help window
             Form1 frmMenu = new Form1();
-            //Showing the menu window
+            //showing the menu window
             frmMenu.Show();
-            //Hiding the game (this form)
+            //Hiding the help screen (this form)
             this.Hide();
-        }
-
-        private void btnClear_Click(object sender, EventArgs e)
-        {
-            foreach(Control c in grbxAns.Controls)
-            {
-                c.Text = "";
-            }
         }
     }
 }
