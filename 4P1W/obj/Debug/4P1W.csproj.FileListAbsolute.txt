@@ -1,0 +1,11 @@
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\4P1W.exe.config
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\4P1W.exe
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\4P1W.pdb
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csproj.AssemblyReference.cache
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csproj.SuggestedBindingRedirects.cache
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\_4P1W.Form1.resources
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\_4P1W.Properties.Resources.resources
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csproj.GenerateResource.cache
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csproj.CoreCompileInputs.cache
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.exe
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.pdb
