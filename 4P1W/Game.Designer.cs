@@ -54,6 +54,7 @@
             this.pic2 = new System.Windows.Forms.PictureBox();
             this.pic1 = new System.Windows.Forms.PictureBox();
             this.imageListAccurate = new System.Windows.Forms.ImageList(this.components);
+            this.grbxGuess = new System.Windows.Forms.GroupBox();
             this.grbxAns.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pic4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic3)).BeginInit();
@@ -306,6 +307,14 @@
             this.imageListAccurate.Images.SetKeyName(2, "3.png");
             this.imageListAccurate.Images.SetKeyName(3, "4.png");
             // 
+            // grbxGuess
+            // 
+            this.grbxGuess.Location = new System.Drawing.Point(59, 391);
+            this.grbxGuess.Name = "grbxGuess";
+            this.grbxGuess.Size = new System.Drawing.Size(326, 126);
+            this.grbxGuess.TabIndex = 25;
+            this.grbxGuess.TabStop = false;
+            // 
             // frmGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -326,6 +335,7 @@
             this.Controls.Add(this.pic2);
             this.Controls.Add(this.pic1);
             this.Controls.Add(this.grbxAns);
+            this.Controls.Add(this.grbxGuess);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmGame";
             this.Text = "4 Pics 1 Word";
@@ -365,5 +375,6 @@
         private System.Windows.Forms.Button a2;
         private System.Windows.Forms.Button a1;
         private System.Windows.Forms.ImageList imageListAccurate;
+        private System.Windows.Forms.GroupBox grbxGuess;
     }
 }

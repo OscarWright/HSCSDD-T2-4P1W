@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-4P1W",
+      "appliesTo": "4P1W/4P1W.sln",
+      "type": "launch"
+    }
+  ]
+}

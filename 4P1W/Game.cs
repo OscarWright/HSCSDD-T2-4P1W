@@ -12,7 +12,7 @@ namespace _4P1W
 {
     public partial class frmGame : Form
     {
-        string[] word = { "accurate", "accurate", "accurate", "accurate", "accurate" };
+        string[] word = { "test", "test", "bruh", "accurate", "accurate" };
         int index = 0;
 
         public frmGame()
@@ -56,6 +56,10 @@ namespace _4P1W
                 g6.Text = (wordChar[5].ToString());
                 g7.Text = (wordChar[6].ToString());
                 g8.Text = (wordChar[7].ToString());
+
+                foreach(Control g in grbxGuess.Controls){
+                    
+                }
             
         }
 
@@ -214,11 +218,6 @@ namespace _4P1W
         {
             setAnsValue(g8);
             g8.Text = "";
-
-        }
-
-        private void btnCheck_Click(object sender, EventArgs e)
-        {
 
         }
     }
