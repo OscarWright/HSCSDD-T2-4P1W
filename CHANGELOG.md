@@ -1,3 +1,9 @@
+## [0.0.4](https://github.com/OscarWright/HSCSDD-T2-4P1W) (3-01-2022)
+
+**Features added:**
+
+- Clear function created, clicking answer buttons to return the letter still WIP.
+
 ## [0.0.3](https://github.com/OscarWright/HSCSDD-T2-4P1W) (14-12-2021)
 
 **Backend started:**
