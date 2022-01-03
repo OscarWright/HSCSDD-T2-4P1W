@@ -12,7 +12,7 @@ namespace _4P1W
 {
     public partial class frmGame : Form
     {
-        string[] word = { "Accurate", "Accurate", "Accurate", "Accurate", "Accurate" };
+        string[] word = { "accurate", "accurate", "accurate", "accurate", "accurate" };
         int index = 0;
 
         public frmGame()
@@ -22,24 +22,32 @@ namespace _4P1W
 
         private void frmGame_Load(object sender, EventArgs e)
         {
+            // starting the game on form load
             game();
         }
 
         public void game()
         {
-            
+                // Clearing the answers (all of the buttons in the group box)
+                foreach(Control c in grbxAns.Controls)
+                {    
+                    c.Text = "";
+                }
 
+
+                //Setting the images
                 pic1.Image = imageListAccurate.Images[0];
                 pic2.Image = imageListAccurate.Images[1];
                 pic3.Image = imageListAccurate.Images[2];
                 pic4.Image = imageListAccurate.Images[3];
 
 
+                // splitting the word into characters and then randomising the array
                 char[] wordChar = (word[index]).ToCharArray();
                 Random random = new Random();
                 wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
 
-
+                // setting the possible guess buttons to each item in the now random array
                 g1.Text = (wordChar[0].ToString());
                 g2.Text = (wordChar[1].ToString());
                 g3.Text = (wordChar[2].ToString());
@@ -107,16 +115,15 @@ namespace _4P1W
 
         private void btnClear_Click(object sender, EventArgs e)
         {
-            foreach(Control c in grbxAns.Controls)
-            {
-                c.Text = "";
-            }
+            // Resets the level    
+            game();
         }
 
 
         
         private void a1_Click(object sender, EventArgs e)
         {
+
             a1.Text = "";
         }
 
