@@ -47,20 +47,82 @@ namespace _4P1W
                 Random random = new Random();
                 wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
 
-                // setting the possible guess buttons to each item in the now random array
-                g1.Text = (wordChar[0].ToString());
-                g2.Text = (wordChar[1].ToString());
-                g3.Text = (wordChar[2].ToString());
-                g4.Text = (wordChar[3].ToString());
-                g5.Text = (wordChar[4].ToString());
-                g6.Text = (wordChar[5].ToString());
-                g7.Text = (wordChar[6].ToString());
-                g8.Text = (wordChar[7].ToString());
+            // setting the possible guess buttons to each item in the now random array
+            int wordLength = wordChar.Count();
+            switch (wordLength)
+            {
+                case 1:
+                    g1.Text = (wordChar[0].ToString());
+                    break;
+                case 2:
+                    g1.Text = (wordChar[0].ToString());
+                    g2.Text = (wordChar[0].ToString());
+                    break;
+                case 3:
+                    g1.Text = (wordChar[0].ToString());
+                    g2.Text = (wordChar[1].ToString());
+                    g3.Text = (wordChar[2].ToString());
+                    break;
+                case 4:
+                    g1.Text = (wordChar[0].ToString());
+                    g2.Text = (wordChar[1].ToString());
+                    g3.Text = (wordChar[2].ToString());
+                    g4.Text = (wordChar[3].ToString());
+                    break;
+                case 5:
+                    g1.Text = (wordChar[0].ToString());
+                    g2.Text = (wordChar[1].ToString());
+                    g3.Text = (wordChar[2].ToString());
+                    g4.Text = (wordChar[3].ToString());
+                    g5.Text = (wordChar[4].ToString());
+                    break;
+                case 6:
+                    g1.Text = (wordChar[0].ToString());
+                    g2.Text = (wordChar[1].ToString());
+                    g3.Text = (wordChar[2].ToString());
+                    g4.Text = (wordChar[3].ToString());
+                    g5.Text = (wordChar[4].ToString());
+                    g6.Text = (wordChar[5].ToString());
+                    break;
+                case 7:
+                    g1.Text = (wordChar[0].ToString());
+                    g2.Text = (wordChar[1].ToString());
+                    g3.Text = (wordChar[2].ToString());
+                    g4.Text = (wordChar[3].ToString());
+                    g5.Text = (wordChar[4].ToString());
+                    g6.Text = (wordChar[5].ToString());
+                    g7.Text = (wordChar[6].ToString());
+                    break;
+                case 8:
+                    g1.Text = (wordChar[0].ToString());
+                    g2.Text = (wordChar[1].ToString());
+                    g3.Text = (wordChar[2].ToString());
+                    g4.Text = (wordChar[3].ToString());
+                    g5.Text = (wordChar[4].ToString());
+                    g6.Text = (wordChar[5].ToString());
+                    g7.Text = (wordChar[6].ToString());
+                    g8.Text = (wordChar[7].ToString());
+                    break;
+                default:
+                    MessageBox.Show("no word");
+                    break;
+            }
 
-                foreach(Control g in grbxGuess.Controls){
+            foreach (Control g in grbxGuess.Controls){
                     
                 }
             
+        }
+
+        public void checkAns()
+        {
+            string guess = (a1.Text + a2.Text + a3.Text + a4.Text + a5.Text + a6.Text + a7.Text + a8.Text);
+
+            if (guess == word[index])
+            {
+                MessageBox.Show("nice" + index.ToString());
+                index++;
+            }
         }
 
         public void setAnsValue(Button c)
@@ -97,13 +159,6 @@ namespace _4P1W
             else if (a8.Text.Equals(""))
             {
                 a8.Text = c.Text;
-                string guess = (a1.Text + a2.Text + a3.Text + a4.Text + a5.Text + a6.Text + a7.Text + a8.Text);
-
-                if (guess == word[index])
-                {
-                    MessageBox.Show("nice");
-                    index++;
-                }
             }
         }
 
@@ -124,7 +179,6 @@ namespace _4P1W
         }
 
 
-        
         private void a1_Click(object sender, EventArgs e)
         {
 
@@ -170,12 +224,14 @@ namespace _4P1W
         {
             setAnsValue(g1);
             g1.Text = "";
+            checkAns();
         }
 
         private void g2_Click(object sender, EventArgs e)
         {
             setAnsValue(g2);
             g2.Text = "";
+            checkAns();
 
         }
 
@@ -183,41 +239,46 @@ namespace _4P1W
         {
             setAnsValue(g3);
             g3.Text = "";
-
+            checkAns();
         }
 
         private void g4_Click(object sender, EventArgs e)
         {
             setAnsValue(g4);
             g4.Text = "";
-
+            checkAns();
         }
 
         private void g5_Click(object sender, EventArgs e)
         {
             setAnsValue(g5);
             g5.Text = "";
-
+            checkAns();
         }
 
         private void g6_Click(object sender, EventArgs e)
         {
             setAnsValue(g6);
             g6.Text = "";
-
+            checkAns();
         }
 
         private void g7_Click(object sender, EventArgs e)
         {
             setAnsValue(g7);
             g7.Text = "";
-
+            checkAns();
         }
 
         private void g8_Click(object sender, EventArgs e)
         {
             setAnsValue(g8);
             g8.Text = "";
+            checkAns();
+        }
+
+        private void grbxGuess_Enter(object sender, EventArgs e)
+        {
 
         }
     }

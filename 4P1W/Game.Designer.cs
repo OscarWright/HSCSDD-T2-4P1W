@@ -314,6 +314,7 @@
             this.grbxGuess.Size = new System.Drawing.Size(326, 126);
             this.grbxGuess.TabIndex = 25;
             this.grbxGuess.TabStop = false;
+            this.grbxGuess.Enter += new System.EventHandler(this.grbxGuess_Enter);
             // 
             // frmGame
             // 
