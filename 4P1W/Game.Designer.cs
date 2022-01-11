@@ -44,7 +44,7 @@
             this.pic3 = new System.Windows.Forms.PictureBox();
             this.pic2 = new System.Windows.Forms.PictureBox();
             this.pic1 = new System.Windows.Forms.PictureBox();
-            this.imageListAccurate = new System.Windows.Forms.ImageList(this.components);
+            this.imageList = new System.Windows.Forms.ImageList(this.components);
             this.pnlAns = new System.Windows.Forms.Panel();
             this.a8 = new System.Windows.Forms.Button();
             this.a2 = new System.Windows.Forms.Button();
@@ -202,14 +202,14 @@
             this.pic1.TabIndex = 0;
             this.pic1.TabStop = false;
             // 
-            // imageListAccurate
+            // imageList
             // 
-            this.imageListAccurate.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListAccurate.ImageStream")));
-            this.imageListAccurate.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageListAccurate.Images.SetKeyName(0, "1.png");
-            this.imageListAccurate.Images.SetKeyName(1, "2.png");
-            this.imageListAccurate.Images.SetKeyName(2, "3.png");
-            this.imageListAccurate.Images.SetKeyName(3, "4.png");
+            this.imageList.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList.ImageStream")));
+            this.imageList.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList.Images.SetKeyName(0, "1.png");
+            this.imageList.Images.SetKeyName(1, "2.png");
+            this.imageList.Images.SetKeyName(2, "3.png");
+            this.imageList.Images.SetKeyName(3, "4.png");
             // 
             // pnlAns
             // 
@@ -228,6 +228,9 @@
             // 
             // a8
             // 
+            this.a8.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.a8.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a8.Location = new System.Drawing.Point(285, 16);
             this.a8.Name = "a8";
@@ -238,6 +241,9 @@
             // 
             // a2
             // 
+            this.a2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.a2.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a2.Location = new System.Drawing.Point(51, 16);
             this.a2.Name = "a2";
@@ -248,6 +254,9 @@
             // 
             // a7
             // 
+            this.a7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.a7.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a7.Location = new System.Drawing.Point(246, 16);
             this.a7.Name = "a7";
@@ -258,8 +267,11 @@
             // 
             // a1
             // 
+            this.a1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.a1.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.a1.Location = new System.Drawing.Point(12, 16);
+            this.a1.Location = new System.Drawing.Point(15, 16);
             this.a1.Name = "a1";
             this.a1.Size = new System.Drawing.Size(30, 30);
             this.a1.TabIndex = 12;
@@ -268,6 +280,9 @@
             // 
             // a6
             // 
+            this.a6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.a6.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a6.Location = new System.Drawing.Point(207, 16);
             this.a6.Name = "a6";
@@ -278,6 +293,9 @@
             // 
             // a3
             // 
+            this.a3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.a3.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a3.Location = new System.Drawing.Point(90, 16);
             this.a3.Name = "a3";
@@ -288,6 +306,9 @@
             // 
             // a5
             // 
+            this.a5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.a5.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a5.Location = new System.Drawing.Point(168, 16);
             this.a5.Name = "a5";
@@ -298,6 +319,9 @@
             // 
             // a4
             // 
+            this.a4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.a4.Font = new System.Drawing.Font("Verdana", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.a4.Location = new System.Drawing.Point(129, 16);
             this.a4.Name = "a4";
@@ -363,7 +387,7 @@
         private System.Windows.Forms.Button g8;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.ImageList imageListAccurate;
+        private System.Windows.Forms.ImageList imageList;
         private System.Windows.Forms.Panel pnlAns;
         private System.Windows.Forms.Button a8;
         private System.Windows.Forms.Button a2;
