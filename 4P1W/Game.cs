@@ -28,10 +28,11 @@ namespace _4P1W
 
         public void game()
         {
-                // Clearing the answers (all of the buttons in the group box)
-                foreach(Control c in grbxAns.Controls)
+                // Clearing and hiding the answer buttons (all of the buttons in the group box)
+                foreach(Control c in pnlAns.Controls)
                 {    
                     c.Text = "";
+                    c.Hide();
                 }
 
 
@@ -106,12 +107,7 @@ namespace _4P1W
                 default:
                     MessageBox.Show("no word");
                     break;
-            }
-
-            foreach (Control g in grbxGuess.Controls){
-                    
-                }
-            
+            }            
         }
 
         public void checkAns()
@@ -122,6 +118,7 @@ namespace _4P1W
             {
                 MessageBox.Show("nice" + index.ToString());
                 index++;
+                game();
             }
         }
 
@@ -162,14 +159,17 @@ namespace _4P1W
             }
         }
 
-        private void btnBack_Click(object sender, EventArgs e)
+        private void btnExit_Click(object sender, EventArgs e)
         {
-            //Creating a class for the help window
-            Form1 frmMenu = new Form1();
-            //Showing the menu window
-            frmMenu.Show();
-            //Hiding the game (this form)
-            this.Hide();
+            DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes) { 
+                    //Creating a class for the help window
+                    Form1 frmMenu = new Form1();
+                    //Showing the menu window
+                    frmMenu.Show();
+                    //Hiding the game (this form)
+                    this.Hide();
+            } 
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -277,7 +277,7 @@ namespace _4P1W
             checkAns();
         }
 
-        private void grbxGuess_Enter(object sender, EventArgs e)
+        private void pnlGuess_Enter(object sender, EventArgs e)
         {
 
         }
