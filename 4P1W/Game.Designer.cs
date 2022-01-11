@@ -55,6 +55,7 @@
             this.a5 = new System.Windows.Forms.Button();
             this.a4 = new System.Windows.Forms.Button();
             this.pnlGuess = new System.Windows.Forms.Panel();
+            this.btnCheck = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pic4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
@@ -144,7 +145,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(185, 528);
+            this.btnClear.Location = new System.Drawing.Point(144, 528);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(75, 39);
             this.btnClear.TabIndex = 21;
@@ -337,11 +338,22 @@
             this.pnlGuess.Size = new System.Drawing.Size(326, 129);
             this.pnlGuess.TabIndex = 0;
             // 
+            // btnCheck
+            // 
+            this.btnCheck.Location = new System.Drawing.Point(225, 528);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(75, 39);
+            this.btnCheck.TabIndex = 24;
+            this.btnCheck.Text = "Check";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
+            // 
             // frmGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 594);
+            this.Controls.Add(this.btnCheck);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.g8);
@@ -398,5 +410,6 @@
         private System.Windows.Forms.Button a5;
         private System.Windows.Forms.Button a4;
         private System.Windows.Forms.Panel pnlGuess;
+        private System.Windows.Forms.Button btnCheck;
     }
 }

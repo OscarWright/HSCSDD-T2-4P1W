@@ -12,9 +12,13 @@ namespace _4P1W
 {
     public partial class frmGame : Form
     {
-        string[] word = { "brussffd", "te", "bruh", "accurate", "accurate" };
+        //global vars
+        string[] word = { "test", "tea", "bruh", "accurate", "accurate" };
         int index = 0;
         int p = 0;
+        int wordLength = 0;
+        int attempts = 0;
+        int score = 0;
 
         public frmGame()
         {
@@ -29,30 +33,31 @@ namespace _4P1W
 
         public void game()
         {
-                // Clearing and hiding the answer buttons (all of the buttons in the group box)
-                foreach(Control c in pnlAns.Controls)
-                {    
-                    c.Text = "";
-                    c.Hide();
-                }
+             // Clearing and hiding the answer buttons (all of the buttons in the group box)
+            foreach(Control c in pnlAns.Controls)
+            {    
+                c.Text = "";
+                c.Hide();
+            }
 
 
-                //Setting the images
-                pic1.Image = imageList.Images[0+p];
-                pic2.Image = imageList.Images[1+p];
-                pic3.Image = imageList.Images[2+p];
-                pic4.Image = imageList.Images[3+p];
+            //Setting the images
+            pic1.Image = imageList.Images[0+p];
+            pic2.Image = imageList.Images[1+p];
+            pic3.Image = imageList.Images[2+p];
+            pic4.Image = imageList.Images[3+p];
 
 
-                // splitting the word into characters and then randomising the array
-                char[] wordChar = (word[index]).ToCharArray();
-                Random random = new Random();
-                wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
+            // splitting the word into characters and then randomising the array
+            char[] wordChar = (word[index]).ToCharArray();
+            Random random = new Random();
+            wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
+            wordLength = wordChar.Count();
+
 
             // setting the possible guess buttons to each item in the now random array
             // Showing the amount of answers
             // Centering the answer buttons (manually - I couldn't find a way to automatically do this)
-            int wordLength = wordChar.Count();
             switch (wordLength)
             {
                 case 1:
@@ -183,8 +188,7 @@ namespace _4P1W
                 default:
                     MessageBox.Show("no word");
                     break;
-
-            }            
+            }
         }
 
         public void checkAns()
@@ -193,12 +197,29 @@ namespace _4P1W
 
             if (guess == word[index])
             {
-                MessageBox.Show("nice" + index.ToString());
+                MessageBox.Show("Correct     * index = " + index.ToString());
                 index++;
+                score = score + (10 - attempts);
                 p = p + 4;
+                MessageBox.Show(score.ToString());
                 game();
             }
+            else
+            {
+                attempts++;
+                MessageBox.Show("Incorrect: " + (5 - attempts) + " Attempts Remaining");
+                if (attempts == 5)
+                {
+                    MessageBox.Show("You have failed");
+                    Form1 frmMenu = new Form1();
+                    //Showing the menu window
+                    frmMenu.Show();
+                    //Hiding the game (this form)
+                    this.Hide();
+                }
+            }
         }
+
 
         public void setAnsValue(Button c)
         {
@@ -301,63 +322,59 @@ namespace _4P1W
         private void g1_Click(object sender, EventArgs e)
         {
             setAnsValue(g1);
-            g1.Text = "";
-            checkAns();
+            g1.Text = "";     
         }
 
         private void g2_Click(object sender, EventArgs e)
         {
             setAnsValue(g2);
             g2.Text = "";
-            checkAns();
-
         }
 
         private void g3_Click(object sender, EventArgs e)
         {
             setAnsValue(g3);
             g3.Text = "";
-            checkAns();
         }
 
         private void g4_Click(object sender, EventArgs e)
         {
             setAnsValue(g4);
             g4.Text = "";
-            checkAns();
         }
 
         private void g5_Click(object sender, EventArgs e)
         {
             setAnsValue(g5);
             g5.Text = "";
-            checkAns();
         }
 
         private void g6_Click(object sender, EventArgs e)
         {
             setAnsValue(g6);
             g6.Text = "";
-            checkAns();
         }
 
         private void g7_Click(object sender, EventArgs e)
         {
             setAnsValue(g7);
             g7.Text = "";
-            checkAns();
         }
 
         private void g8_Click(object sender, EventArgs e)
         {
             setAnsValue(g8);
             g8.Text = "";
-            checkAns();
         }
 
         private void pnlGuess_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            checkAns();
         }
     }
 }
