@@ -56,7 +56,7 @@ namespace _4P1W
 
 
             // setting the possible guess buttons to each item in the now random array
-            // Showing the amount of answers
+            // Showing the correct amount of answer buttons
             // Centering the answer buttons (manually - I couldn't find a way to automatically do this)
             switch (wordLength)
             {
@@ -193,17 +193,23 @@ namespace _4P1W
 
         public void checkAns()
         {
+            // Concatenate all of the answers
             string guess = (a1.Text + a2.Text + a3.Text + a4.Text + a5.Text + a6.Text + a7.Text + a8.Text);
 
+            // Compare the concatenated string the the word
             if (guess == word[index])
             {
                 MessageBox.Show("Correct     * index = " + index.ToString());
+                // incrementing the game index
                 index++;
+                // incrementing the score minus the attempts
                 score = score + (10 - attempts);
+                // incrementing the picture index
                 p = p + 4;
                 MessageBox.Show(score.ToString());
                 game();
             }
+            // if the sting does not match
             else
             {
                 attempts++;
@@ -211,6 +217,7 @@ namespace _4P1W
                 if (attempts == 5)
                 {
                     MessageBox.Show("You have failed");
+                    // form class
                     Form1 frmMenu = new Form1();
                     //Showing the menu window
                     frmMenu.Show();
@@ -223,6 +230,7 @@ namespace _4P1W
 
         public void setAnsValue(Button c)
         {
+            // checks for an empty answer btn, and fills from left to right
 
             if (a1.Text.Equals(""))
             {
@@ -260,6 +268,7 @@ namespace _4P1W
 
         private void btnExit_Click(object sender, EventArgs e)
         {
+            // y/n dialog box
             DialogResult result = MessageBox.Show("Are you sure you want to exit?", "Exit", MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes) { 
                     //Creating a class for the help window
@@ -275,48 +284,6 @@ namespace _4P1W
         {
             // Resets the level    
             game();
-        }
-
-
-        private void a1_Click(object sender, EventArgs e)
-        {
-
-            a1.Text = "";
-        }
-
-        private void a2_Click(object sender, EventArgs e)
-        {
-            a2.Text = "";
-        }
-
-        private void a3_Click(object sender, EventArgs e)
-        {
-            a3.Text = "";
-        }
-
-        private void a4_Click(object sender, EventArgs e)
-        {
-            a4.Text = "";
-        }
-
-        private void a5_Click(object sender, EventArgs e)
-        {
-            a5.Text = "";
-        }
-
-        private void a6_Click(object sender, EventArgs e)
-        {
-            a6.Text = "";
-        }
-
-        private void a7_Click(object sender, EventArgs e)
-        {
-            a7.Text = "";
-        }
-
-        private void a8_Click(object sender, EventArgs e)
-        {
-            a8.Text = "";
         }
 
         private void g1_Click(object sender, EventArgs e)
