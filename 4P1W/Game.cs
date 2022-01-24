@@ -230,7 +230,7 @@ namespace _4P1W
 
         public void setAnsValue(Button c)
         {
-            // checks for an empty answer btn, and fills from left to right
+            // checks for an empty answer btn, and fills from left to right when a guess is clicked
 
             if (a1.Text.Equals(""))
             {
