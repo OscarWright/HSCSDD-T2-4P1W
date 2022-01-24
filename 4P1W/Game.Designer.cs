@@ -211,6 +211,10 @@
             this.imageList.Images.SetKeyName(1, "2.png");
             this.imageList.Images.SetKeyName(2, "3.png");
             this.imageList.Images.SetKeyName(3, "4.png");
+            this.imageList.Images.SetKeyName(4, "5.png");
+            this.imageList.Images.SetKeyName(5, "6.png");
+            this.imageList.Images.SetKeyName(6, "7.png");
+            this.imageList.Images.SetKeyName(7, "8.png");
             // 
             // pnlAns
             // 

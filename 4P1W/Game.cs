@@ -13,7 +13,7 @@ namespace _4P1W
     public partial class frmGame : Form
     {
         //global vars
-        string[] word = { "test", "tea", "bruh", "accurate", "accurate" };
+        string[] word = { "accurate", "sign", "bruh", "accurate", "accurate" };
         int index = 0;
         int p = 0;
         int wordLength = 0;
