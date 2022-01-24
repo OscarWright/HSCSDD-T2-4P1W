@@ -334,11 +334,6 @@ namespace _4P1W
             g8.Text = "";
         }
 
-        private void pnlGuess_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnCheck_Click(object sender, EventArgs e)
         {
             checkAns();
