@@ -207,6 +207,7 @@ namespace _4P1W
                 // incrementing the picture index
                 p = p + 4;
                 MessageBox.Show(score.ToString());
+                attempts = 0;
                 game();
             }
             // if the sting does not match
@@ -214,6 +215,7 @@ namespace _4P1W
             {
                 attempts++;
                 MessageBox.Show("Incorrect: " + (5 - attempts) + " Attempts Remaining");
+                game();
                 if (attempts == 5)
                 {
                     MessageBox.Show("You have failed");

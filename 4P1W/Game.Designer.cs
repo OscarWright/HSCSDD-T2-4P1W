@@ -241,7 +241,7 @@
             this.a8.Name = "a8";
             this.a8.Size = new System.Drawing.Size(30, 30);
             this.a8.TabIndex = 19;
-            this.a8.UseVisualStyleBackColor = true;           
+            this.a8.UseVisualStyleBackColor = true;
             // 
             // a2
             // 
