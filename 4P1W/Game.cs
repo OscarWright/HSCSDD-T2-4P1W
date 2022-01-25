@@ -14,6 +14,7 @@ namespace _4P1W
     {
         //global vars
         string[] word = { "accurate", "sign", "bruh", "accurate", "accurate" };
+        string[] hint = { "synonym of precise, exact or correct", "may show important information (noun) or complete a contract (verb)"};
         int index = 0;
         int p = 0;
         int wordLength = 0;
@@ -33,13 +34,12 @@ namespace _4P1W
 
         public void game()
         {
-             // Clearing and hiding the answer buttons (all of the buttons in the group box)
-            foreach(Control c in pnlAns.Controls)
+            // Clearing and hiding the answer buttons (all of the buttons in the group box)
+            foreach (Control c in pnlAns.Controls)
             {    
                 c.Text = "";
                 c.Hide();
             }
-
 
             //Setting the images
             pic1.Image = imageList.Images[0+p];
@@ -64,14 +64,20 @@ namespace _4P1W
                     g1.Text = (wordChar[0].ToString());
                     a1.Show();
                     a1.Left = pnlAns.Width/2 - a1.Width/2;
+                    //g1.Show();
+                    //g1.Left = pnlGuess.Width / 2 - g1.Width / 2;
                     break;
                 case 2:
                     g1.Text = (wordChar[0].ToString());
-                    g2.Text = (wordChar[0].ToString());
+                    g2.Text = (wordChar[1].ToString());
                     a1.Show();
                     a2.Show();
                     a1.Left = (pnlAns.Width/2 - a1.Width/2) - 20;
                     a2.Left = (pnlAns.Width/2 - a2.Width / 2) + 20;
+                    //g1.Show();
+                    //g2.Show();
+                    //g1.Left = (pnlGuess.Width / 2 - g1.Width / 2) - 20;
+                    //g2.Left = (pnlGuess.Width / 2 - g2.Width / 2) + 20;
                     break;
                 case 3:
                     g1.Text = (wordChar[0].ToString());
@@ -188,6 +194,11 @@ namespace _4P1W
                 default:
                     MessageBox.Show("no word");
                     break;
+            }
+
+            if (attempts == 3)
+            {
+                MessageBox.Show("Hint: ", hint[index]);
             }
         }
 
