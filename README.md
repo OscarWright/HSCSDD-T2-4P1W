@@ -27,15 +27,15 @@ How to play here
 
 ## Specifacations
 
-	### IPO Chart
+### IPO Chart
 
-	### Data Flow Diagram
-	
-	### Structure Chart
-	
-	### Data Dictionary
-	
-	### Story Board
+### Data Flow Diagram
+
+### Structure Chart
+
+### Data Dictionary
+
+### Story Board
 
 ## Changelog
 
