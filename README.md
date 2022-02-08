@@ -11,7 +11,7 @@ Students are to design and construct a full software solution in Visual Studio (
 - [Getting Started](#getting-started)
 	- [Install](#install)
 	- [How to play](#how-to-play)
-- [Requirements](#requirements)
+- [General Specifactations](#Specifacations)
 - [Changelog](#changelog)
 - [Copyright](#copyright)
 
@@ -25,9 +25,17 @@ Click here -> [Latest Release](Https://google.com)
 
 How to play here
 
-## Requirements
+## Specifacations
 
-Write soft/hard ware reqs here.
+	### IPO Chart
+
+	### Data Flow Diagram
+	
+	### Structure Chart
+	
+	### Data Dictionary
+	
+	### Story Board
 
 ## Changelog
 
