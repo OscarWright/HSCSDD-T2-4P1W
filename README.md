@@ -12,6 +12,11 @@ Students are to design and construct a full software solution in Visual Studio (
 	- [Install](#install)
 	- [How to play](#how-to-play)
 - [General Specifactations](#Specifacations)
+	- [IPO Chart](#IPO-Chart)
+	- [Data Flow Diagram](#data-flow-diagram)
+	- [Structure Chart](#Structure-chart)
+	- [Data Dictionary](#data-dictionary)
+	- [Story Board](#storyboard)
 - [Changelog](#changelog)
 - [Copyright](#copyright)
 
@@ -35,7 +40,7 @@ How to play here
 
 ### Data Dictionary
 
-### Story Board
+### StoryBoard
 
 ## Changelog
 
