@@ -40,7 +40,7 @@ How to play here
 
 ### Data Dictionary
 
-### StoryBoard
+### Storyboard
 
 ## Changelog
 
