@@ -34,171 +34,174 @@ namespace _4P1W
 
         public void game()
         {
-            // Clearing and hiding the answer buttons (all of the buttons in the group box)
-            foreach (Control c in pnlAns.Controls)
-            {    
-                c.Text = "";
-                c.Hide();
-            }
-
-            //Setting the images
-            pic1.Image = imageList.Images[0+p];
-            pic2.Image = imageList.Images[1+p];
-            pic3.Image = imageList.Images[2+p];
-            pic4.Image = imageList.Images[3+p];
-
-
-            // splitting the word into characters and then randomising the array
-            char[] wordChar = (word[index]).ToCharArray();
-            Random random = new Random();
-            wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
-            wordLength = wordChar.Count();
-
-
-            // setting the possible guess buttons to each item in the now random array
-            // Showing the correct amount of answer buttons
-            // Centering the answer buttons (manually - I couldn't find a way to automatically do this)
-            switch (wordLength)
+            while (index <= 5)
             {
-                case 1:
-                    g1.Text = (wordChar[0].ToString());
-                    a1.Show();
-                    a1.Left = pnlAns.Width/2 - a1.Width/2;
-                    //g1.Show();
-                    //g1.Left = pnlGuess.Width / 2 - g1.Width / 2;
-                    break;
-                case 2:
-                    g1.Text = (wordChar[0].ToString());
-                    g2.Text = (wordChar[1].ToString());
-                    a1.Show();
-                    a2.Show();
-                    a1.Left = (pnlAns.Width/2 - a1.Width/2) - 20;
-                    a2.Left = (pnlAns.Width/2 - a2.Width / 2) + 20;
-                    //g1.Show();
-                    //g2.Show();
-                    //g1.Left = (pnlGuess.Width / 2 - g1.Width / 2) - 20;
-                    //g2.Left = (pnlGuess.Width / 2 - g2.Width / 2) + 20;
-                    break;
-                case 3:
-                    g1.Text = (wordChar[0].ToString());
-                    g2.Text = (wordChar[1].ToString());
-                    g3.Text = (wordChar[2].ToString());
-                    a1.Show();
-                    a2.Show();
-                    a3.Show();
-                    a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 40;
-                    a2.Left = (pnlAns.Width / 2 - a2.Width / 2);
-                    a3.Left = (pnlAns.Width / 2 - a1.Width / 2) + 40;
-                    break;
-                case 4:
-                    g1.Text = (wordChar[0].ToString());
-                    g2.Text = (wordChar[1].ToString());
-                    g3.Text = (wordChar[2].ToString());
-                    g4.Text = (wordChar[3].ToString());
-                    a1.Show();
-                    a2.Show();
-                    a3.Show();
-                    a4.Show();
-                    a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 60;
-                    a2.Left = (pnlAns.Width / 2 - a2.Width / 2) - 20;
-                    a3.Left = (pnlAns.Width / 2 - a1.Width / 2) + 20;
-                    a4.Left = (pnlAns.Width / 2 - a2.Width / 2) + 60;
-                    break;
-                case 5:
-                    g1.Text = (wordChar[0].ToString());
-                    g2.Text = (wordChar[1].ToString());
-                    g3.Text = (wordChar[2].ToString());
-                    g4.Text = (wordChar[3].ToString());
-                    g5.Text = (wordChar[4].ToString());
-                    a1.Show();
-                    a2.Show();
-                    a3.Show();
-                    a4.Show();
-                    a5.Show();
-                    a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 70;
-                    a2.Left = (pnlAns.Width / 2 - a1.Width / 2) - 35;
-                    a3.Left = (pnlAns.Width / 2 - a2.Width / 2);
-                    a4.Left = (pnlAns.Width / 2 - a1.Width / 2) + 35;
-                    a5.Left = (pnlAns.Width / 2 - a1.Width / 2) + 70;
-                    break;
-                case 6:
-                    g1.Text = (wordChar[0].ToString());
-                    g2.Text = (wordChar[1].ToString());
-                    g3.Text = (wordChar[2].ToString());
-                    g4.Text = (wordChar[3].ToString());
-                    g5.Text = (wordChar[4].ToString());
-                    g6.Text = (wordChar[5].ToString());
-                    a1.Show();
-                    a2.Show();
-                    a3.Show();
-                    a4.Show();
-                    a5.Show();
-                    a6.Show();
-                    a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 100;
-                    a2.Left = (pnlAns.Width / 2 - a2.Width / 2) - 60;
-                    a3.Left = (pnlAns.Width / 2 - a1.Width / 2) - 20;
-                    a4.Left = (pnlAns.Width / 2 - a2.Width / 2) + 20;
-                    a5.Left = (pnlAns.Width / 2 - a1.Width / 2) + 60;
-                    a6.Left = (pnlAns.Width / 2 - a2.Width / 2) + 100;
-                    break;
-                case 7:
-                    g1.Text = (wordChar[0].ToString());
-                    g2.Text = (wordChar[1].ToString());
-                    g3.Text = (wordChar[2].ToString());
-                    g4.Text = (wordChar[3].ToString());
-                    g5.Text = (wordChar[4].ToString());
-                    g6.Text = (wordChar[5].ToString());
-                    g7.Text = (wordChar[6].ToString());
-                    a1.Show();
-                    a2.Show();
-                    a3.Show();
-                    a4.Show();
-                    a5.Show();
-                    a6.Show();
-                    a7.Show();
-                    a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 105;
-                    a2.Left = (pnlAns.Width / 2 - a1.Width / 2) - 70;
-                    a3.Left = (pnlAns.Width / 2 - a1.Width / 2) - 35;
-                    a4.Left = (pnlAns.Width / 2 - a2.Width / 2);
-                    a5.Left = (pnlAns.Width / 2 - a1.Width / 2) + 35;
-                    a6.Left = (pnlAns.Width / 2 - a1.Width / 2) + 70;
-                    a7.Left = (pnlAns.Width / 2 - a1.Width / 2) + 105;
-                    break;
-                case 8:
-                    g1.Text = (wordChar[0].ToString());
-                    g2.Text = (wordChar[1].ToString());
-                    g3.Text = (wordChar[2].ToString());
-                    g4.Text = (wordChar[3].ToString());
-                    g5.Text = (wordChar[4].ToString());
-                    g6.Text = (wordChar[5].ToString());
-                    g7.Text = (wordChar[6].ToString());
-                    g8.Text = (wordChar[7].ToString());
-                    a1.Show();
-                    a2.Show();
-                    a3.Show();
-                    a4.Show();
-                    a5.Show();
-                    a6.Show();
-                    a7.Show();
-                    a8.Show();
-                    a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 140;
-                    a2.Left = (pnlAns.Width / 2 - a1.Width / 2) - 100;
-                    a3.Left = (pnlAns.Width / 2 - a2.Width / 2) - 60;
-                    a4.Left = (pnlAns.Width / 2 - a1.Width / 2) - 20;
-                    a5.Left = (pnlAns.Width / 2 - a2.Width / 2) + 20;
-                    a6.Left = (pnlAns.Width / 2 - a1.Width / 2) + 60;
-                    a7.Left = (pnlAns.Width / 2 - a2.Width / 2) + 100;
-                    a8.Left = (pnlAns.Width / 2 - a2.Width / 2) + 140;
-                    a8.Left = (pnlAns.Width / 2 - a2.Width / 2) + 140;
-                    break;
-                default:
-                    MessageBox.Show("no word");
-                    break;
-            }
+                // Clearing and hiding the answer buttons (all of the buttons in the group box)
+                foreach (Control c in pnlAns.Controls)
+                {
+                    c.Text = "";
+                    c.Hide();
+                }
 
-            if (attempts == 3)
-            {
-                MessageBox.Show("Hint: ", hint[index]);
+                //Setting the images
+                pic1.Image = imageList.Images[0 + p];
+                pic2.Image = imageList.Images[1 + p];
+                pic3.Image = imageList.Images[2 + p];
+                pic4.Image = imageList.Images[3 + p];
+
+
+                // splitting the word into characters and then randomising the array
+                char[] wordChar = (word[index]).ToCharArray();
+                Random random = new Random();
+                wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
+                wordLength = wordChar.Count();
+
+
+                // setting the possible guess buttons to each item in the now random array
+                // Showing the correct amount of answer buttons
+                // Centering the answer buttons (manually - I couldn't find a way to automatically do this)
+                switch (wordLength)
+                {
+                    case 1:
+                        g1.Text = (wordChar[0].ToString());
+                        a1.Show();
+                        a1.Left = pnlAns.Width / 2 - a1.Width / 2;
+                        //g1.Show();
+                        //g1.Left = pnlGuess.Width / 2 - g1.Width / 2;
+                        break;
+                    case 2:
+                        g1.Text = (wordChar[0].ToString());
+                        g2.Text = (wordChar[1].ToString());
+                        a1.Show();
+                        a2.Show();
+                        a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 20;
+                        a2.Left = (pnlAns.Width / 2 - a2.Width / 2) + 20;
+                        //g1.Show();
+                        //g2.Show();
+                        //g1.Left = (pnlGuess.Width / 2 - g1.Width / 2) - 20;
+                        //g2.Left = (pnlGuess.Width / 2 - g2.Width / 2) + 20;
+                        break;
+                    case 3:
+                        g1.Text = (wordChar[0].ToString());
+                        g2.Text = (wordChar[1].ToString());
+                        g3.Text = (wordChar[2].ToString());
+                        a1.Show();
+                        a2.Show();
+                        a3.Show();
+                        a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 40;
+                        a2.Left = (pnlAns.Width / 2 - a2.Width / 2);
+                        a3.Left = (pnlAns.Width / 2 - a1.Width / 2) + 40;
+                        break;
+                    case 4:
+                        g1.Text = (wordChar[0].ToString());
+                        g2.Text = (wordChar[1].ToString());
+                        g3.Text = (wordChar[2].ToString());
+                        g4.Text = (wordChar[3].ToString());
+                        a1.Show();
+                        a2.Show();
+                        a3.Show();
+                        a4.Show();
+                        a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 60;
+                        a2.Left = (pnlAns.Width / 2 - a2.Width / 2) - 20;
+                        a3.Left = (pnlAns.Width / 2 - a1.Width / 2) + 20;
+                        a4.Left = (pnlAns.Width / 2 - a2.Width / 2) + 60;
+                        break;
+                    case 5:
+                        g1.Text = (wordChar[0].ToString());
+                        g2.Text = (wordChar[1].ToString());
+                        g3.Text = (wordChar[2].ToString());
+                        g4.Text = (wordChar[3].ToString());
+                        g5.Text = (wordChar[4].ToString());
+                        a1.Show();
+                        a2.Show();
+                        a3.Show();
+                        a4.Show();
+                        a5.Show();
+                        a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 70;
+                        a2.Left = (pnlAns.Width / 2 - a1.Width / 2) - 35;
+                        a3.Left = (pnlAns.Width / 2 - a2.Width / 2);
+                        a4.Left = (pnlAns.Width / 2 - a1.Width / 2) + 35;
+                        a5.Left = (pnlAns.Width / 2 - a1.Width / 2) + 70;
+                        break;
+                    case 6:
+                        g1.Text = (wordChar[0].ToString());
+                        g2.Text = (wordChar[1].ToString());
+                        g3.Text = (wordChar[2].ToString());
+                        g4.Text = (wordChar[3].ToString());
+                        g5.Text = (wordChar[4].ToString());
+                        g6.Text = (wordChar[5].ToString());
+                        a1.Show();
+                        a2.Show();
+                        a3.Show();
+                        a4.Show();
+                        a5.Show();
+                        a6.Show();
+                        a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 100;
+                        a2.Left = (pnlAns.Width / 2 - a2.Width / 2) - 60;
+                        a3.Left = (pnlAns.Width / 2 - a1.Width / 2) - 20;
+                        a4.Left = (pnlAns.Width / 2 - a2.Width / 2) + 20;
+                        a5.Left = (pnlAns.Width / 2 - a1.Width / 2) + 60;
+                        a6.Left = (pnlAns.Width / 2 - a2.Width / 2) + 100;
+                        break;
+                    case 7:
+                        g1.Text = (wordChar[0].ToString());
+                        g2.Text = (wordChar[1].ToString());
+                        g3.Text = (wordChar[2].ToString());
+                        g4.Text = (wordChar[3].ToString());
+                        g5.Text = (wordChar[4].ToString());
+                        g6.Text = (wordChar[5].ToString());
+                        g7.Text = (wordChar[6].ToString());
+                        a1.Show();
+                        a2.Show();
+                        a3.Show();
+                        a4.Show();
+                        a5.Show();
+                        a6.Show();
+                        a7.Show();
+                        a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 105;
+                        a2.Left = (pnlAns.Width / 2 - a1.Width / 2) - 70;
+                        a3.Left = (pnlAns.Width / 2 - a1.Width / 2) - 35;
+                        a4.Left = (pnlAns.Width / 2 - a2.Width / 2);
+                        a5.Left = (pnlAns.Width / 2 - a1.Width / 2) + 35;
+                        a6.Left = (pnlAns.Width / 2 - a1.Width / 2) + 70;
+                        a7.Left = (pnlAns.Width / 2 - a1.Width / 2) + 105;
+                        break;
+                    case 8:
+                        g1.Text = (wordChar[0].ToString());
+                        g2.Text = (wordChar[1].ToString());
+                        g3.Text = (wordChar[2].ToString());
+                        g4.Text = (wordChar[3].ToString());
+                        g5.Text = (wordChar[4].ToString());
+                        g6.Text = (wordChar[5].ToString());
+                        g7.Text = (wordChar[6].ToString());
+                        g8.Text = (wordChar[7].ToString());
+                        a1.Show();
+                        a2.Show();
+                        a3.Show();
+                        a4.Show();
+                        a5.Show();
+                        a6.Show();
+                        a7.Show();
+                        a8.Show();
+                        a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 140;
+                        a2.Left = (pnlAns.Width / 2 - a1.Width / 2) - 100;
+                        a3.Left = (pnlAns.Width / 2 - a2.Width / 2) - 60;
+                        a4.Left = (pnlAns.Width / 2 - a1.Width / 2) - 20;
+                        a5.Left = (pnlAns.Width / 2 - a2.Width / 2) + 20;
+                        a6.Left = (pnlAns.Width / 2 - a1.Width / 2) + 60;
+                        a7.Left = (pnlAns.Width / 2 - a2.Width / 2) + 100;
+                        a8.Left = (pnlAns.Width / 2 - a2.Width / 2) + 140;
+                        a8.Left = (pnlAns.Width / 2 - a2.Width / 2) + 140;
+                        break;
+                    default:
+                        MessageBox.Show("no word");
+                        break;
+                }
+
+                if (attempts == 3)
+                {
+                    MessageBox.Show("Hint: ", hint[index]);
+                }
             }
         }
 
