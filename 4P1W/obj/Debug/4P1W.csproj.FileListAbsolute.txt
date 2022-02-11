@@ -11,3 +11,15 @@ C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.pdb
 C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\_4P1W.frmGame.resources
 C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\_4P1W.frmHelp.resources
 C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csproj.AssemblyReference.cache
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\4P1W.exe.config
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\4P1W.exe
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\4P1W.pdb
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csprojAssemblyReference.cache
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\_4P1W.Form1.resources
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\_4P1W.frmGame.resources
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\_4P1W.frmHelp.resources
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\_4P1W.Properties.Resources.resources
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csproj.GenerateResource.cache
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csproj.CoreCompileInputs.cache
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.exe
+C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.pdb

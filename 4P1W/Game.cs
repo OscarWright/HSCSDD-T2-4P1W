@@ -13,7 +13,7 @@ namespace _4P1W
     public partial class frmGame : Form
     {
         //global vars
-        string[] word = { "accurate", "sign", "bruh", "accurate", "accurate" };
+        string[] word = { "accurate", "sign", "school", "disaster", "letter" };
         string[] hint = { "synonym of precise, exact or correct", "may show important information (noun) or complete a contract (verb)"};
         int index = 0;
         int p = 0;

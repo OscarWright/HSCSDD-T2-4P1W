@@ -215,6 +215,14 @@
             this.imageList.Images.SetKeyName(5, "6.png");
             this.imageList.Images.SetKeyName(6, "7.png");
             this.imageList.Images.SetKeyName(7, "8.png");
+            this.imageList.Images.SetKeyName(8, "school4.png");
+            this.imageList.Images.SetKeyName(9, "school3.png");
+            this.imageList.Images.SetKeyName(10, "school2.png");
+            this.imageList.Images.SetKeyName(11, "school1.png");
+            this.imageList.Images.SetKeyName(12, "disaster4.png");
+            this.imageList.Images.SetKeyName(13, "disaster1.png");
+            this.imageList.Images.SetKeyName(14, "disastere.png");
+            this.imageList.Images.SetKeyName(15, "disasterv.png");
             // 
             // pnlAns
             // 
