@@ -34,7 +34,7 @@ namespace _4P1W
 
         public void game()
         {
-            while (index <= 5)
+            if (index <= 4)
             {
                 // Clearing and hiding the answer buttons (all of the buttons in the group box)
                 foreach (Control c in pnlAns.Controls)
@@ -202,6 +202,10 @@ namespace _4P1W
                 {
                     MessageBox.Show("Hint: ", hint[index]);
                 }
+            }
+            else
+            {
+                MessageBox.Show("GameOver");
             }
         }
 
