@@ -1,15 +1,7 @@
-# [4 Pics 1 Word](https://github.com/OscarWright/HSCSDD-T2-4P1W) 🖼️ - HSC SDD Task 2.
+
 
 <div align="center">
-🖼️
-  </a>
-
-  <h3 align="center"> [4 Pics 1 Word](https://github.com/OscarWright/HSCSDD-T2-4P1W) </h3>
-
-  <p align="center">
-    HSC SDD Task 2
-    <br />
-  </p>
+# [4 Pics 1 Word](https://github.com/OscarWright/HSCSDD-T2-4P1W) 🖼️ - HSC SDD Task 2.
 </div>
 
 
