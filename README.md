@@ -11,7 +11,7 @@
     <br />
     <br />
     <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe">Download Build (.exe)</a>
-    ·
+    |
     <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W/archive/refs/heads/main.zip">Download Source (.zip)</a>
   </p>
 </div>
