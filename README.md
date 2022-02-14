@@ -1,7 +1,7 @@
 
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/icon.png" alt="Logo" width="80" height="80">
   </a>
 
   <h1 align="center">4 Pics 1 Word</h3>
