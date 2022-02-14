@@ -22,11 +22,6 @@
 <!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
 4 pics 1 word is a popular puzzle game for mobile devices that contains four pictures with one thing in common. The developer of 4 pics 1 word, LOTUM has enlisted you to develop a desktop version of the game. The game must randomise the pictures and letters, include at least six levels, maximum five guesses per word with a hint after the third attempt and a printable scoreboard.
 
-
-## Definition
-
-4 pics 1 word is a popular puzzle game for mobile devices that contains four pictures with one thing in common. The developer of 4 pics 1 word, LOTUM has enlisted you to develop a desktop version of the game. The game must randomise the pictures and letters, include at least six levels, maximum five guesses per word with a hint after the third attempt and a printable scoreboard.
-
 ## Task specifications
 
 Students are to design and construct a full software solution in Visual Studio (Visual C#) to ONE of the following case problems. Each product should allow for at least ten minutes of varied interaction by the user, be appropriate for the intended audience and utilise logical coding structures and project management techniques. Students should endeavour to find an efficient software solution with appropriate use of features applicable to their chosen problem.
