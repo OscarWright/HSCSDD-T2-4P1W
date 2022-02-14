@@ -8,6 +8,14 @@
 
 <h4 align="center">HSC SDD Task 2</h4>
 
+<p align="center">
+  <a href="#Getting-Started">Getting Started</a> •
+  <a href="#General-Specifacations">General Specifacations</a> •
+  <a href="#Change-Log">Download</a> •
+  <a href="#Releases">releases</a> •
+  <a href="#copyright">Copyright</a>
+</p>
+
 ## Definition
 
 4 pics 1 word is a popular puzzle game for mobile devices that contains four pictures with one thing in common. The developer of 4 pics 1 word, LOTUM has enlisted you to develop a desktop version of the game. The game must randomise the pictures and letters, include at least six levels, maximum five guesses per word with a hint after the third attempt and a printable scoreboard.
