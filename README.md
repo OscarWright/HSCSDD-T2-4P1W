@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <br />
 <div align="center">
   <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W">
@@ -45,6 +47,7 @@ Students are to design and construct a full software solution in Visual Studio (
 ### Install
 
 Click here -> [Latest Build](https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe)
+<button class="btn"><i class="fa fa-download"></i> Download</button>
 
 ### How to play
 
