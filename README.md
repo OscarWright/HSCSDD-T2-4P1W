@@ -4,7 +4,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">4 Pics 1 Word</h3>
+  <h1 align="center">4 Pics 1 Word</h3>
 
   <p align="center">
    HSC SDD Task 2
