@@ -8,7 +8,7 @@
 <h3 align="center">4 Pics 1 Word</h3>
 
   <p align="center">
-    HSC Software Design & Development Task 2
+    HSC Software Design & Development - Task 2
     <br />
     <br />
     <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe">Download Build (.exe)</a>
