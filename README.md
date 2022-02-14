@@ -9,6 +9,7 @@
   <p align="center">
     HSC Software Design & Development Task 2
     <br />
+    <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
     ·
     <a href="https://github.com/github_username/repo_name/issues">Download Release</a>
