@@ -1,23 +1,3 @@
-<h1 align="center">
-  <br>
-  <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W"><img src="icon.png" alt="4p1w" width="100"></a>
-  <br>
-  4 Pics 1 Word
-  <br>
-</h1>
-
-<h4 align="center">HSC SDD Task 2</h4>
-
-<p align="center">
-  <a href="#Getting-Started">Getting Started</a> •
-  <a href="#General-Specifacations">General Specifacations</a> •
-  <a href="#Change-Log">Download</a> •
-  <a href="#Releases">releases</a> •
-  <a href="#copyright">Copyright</a>
-</p>
-
-
-<!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W">
@@ -28,10 +8,6 @@
 
   <p align="center">
     HSC Software Design & Development Task 2
-	  
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
     ·
