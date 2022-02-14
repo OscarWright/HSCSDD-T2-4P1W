@@ -39,7 +39,7 @@ Students are to design and construct a full software solution in Visual Studio (
 	- [Data Dictionary](#data-dictionary)
 	- [Story Board](#storyboard)
 - [Changelog](#changelog)
-- [License](#copyright)
+- [License](#License)
 
 ## Getting Started
 
