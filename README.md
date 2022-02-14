@@ -1,16 +1,16 @@
-<br />
-	<div align="center">
-	  <a href="https://github.com/othneildrew/Best-README-Template">
-	    <img src="images/logo.png" alt="Logo" width="80" height="80">
-	  </a>
 
-	  <h3 align="center">4 Pics 1 Word</h3>
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-	  <p align="center">
-	   HSC SDD Task 2
-	  </p>
-	</div>
-</br>
+  <h3 align="center">4 Pics 1 Word</h3>
+
+  <p align="center">
+   HSC SDD Task 2
+  </p>
+</div>
+
 
 # [4 Pics 1 Word](https://github.com/OscarWright/HSCSDD-T2-4P1W) 🖼️ - HSC SDD Task 2.
 
