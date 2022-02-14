@@ -3,10 +3,8 @@
   <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W">
     <img src="icon.png" alt="Logo" width="80" height="80">
   </a>
-
   <h1 align="center">4 Pics 1 Word</h3>
   <h3 align="center">HSC SDD Task 2</h3>
-
 </div>
 
 
