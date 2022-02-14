@@ -45,7 +45,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### Install
 
-> Windows - [Download](https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe)
+> Windows x64 Portable - [Download](https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe)
 
 
 ### How to play
