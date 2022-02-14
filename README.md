@@ -39,7 +39,7 @@ Students are to design and construct a full software solution in Visual Studio (
 	- [Data Dictionary](#data-dictionary)
 	- [Story Board](#storyboard)
 - [Changelog](#changelog)
-- [Copyright](#copyright)
+- [License](#copyright)
 
 ## Getting Started
 
@@ -68,6 +68,6 @@ How to play here
 
 [Changelog](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/changelog.md)
 
-## Copyright
+## License
 
 [MIT License](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/LICENSE) © 2022 [Oscar Wright](https://github.com/OscarWright).
