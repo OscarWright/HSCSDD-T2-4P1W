@@ -10,9 +10,9 @@
     HSC Software Design & Development Task 2
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name/issues">Download Build</a>
+    <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe">Download Build (.exe)</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Download Source</a>
+    <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W/archive/refs/heads/main.zip">Download Source (.zip)</a>
   </p>
 </div>
 
