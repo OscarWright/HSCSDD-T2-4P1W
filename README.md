@@ -32,7 +32,7 @@ Students are to design and construct a full software solution in Visual Studio (
 - [Getting Started](#getting-started)
 	- [Install](#install)
 	- [How to play](#how-to-play)
-- [General Specifactations](#Specifacations)
+- [Specifications](#specifications)
 	- [IPO Chart](#IPO-Chart)
 	- [Data Flow Diagram](#data-flow-diagram)
 	- [Structure Chart](#Structure-chart)
@@ -52,7 +52,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 How to play here
 
-## Specifacations
+## Specifications
 
 ### IPO Chart
 
