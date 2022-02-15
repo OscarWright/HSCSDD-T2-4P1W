@@ -64,6 +64,8 @@ How to play here
 
 ### Storyboard
 
+[![StoryBoard][StoryBoard]](https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/DOCS/story_board.png)
+
 ## Changelog
 
 [Changelog](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/changelog.md)
