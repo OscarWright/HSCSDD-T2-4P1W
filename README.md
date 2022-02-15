@@ -62,10 +62,10 @@ How to play here
 
 ### Data Dictionary
  <p align="center">
-| Data Item  | Data Type | Format | Bytes of Storage | Size for Display | Description | Example | Validation |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+	| Data Item  | Data Type | Format | Bytes of Storage | Size for Display | Description | Example | Validation |
+	| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+	| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+	| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 </p>
 ### Storyboard
 
