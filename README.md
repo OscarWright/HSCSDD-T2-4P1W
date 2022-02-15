@@ -50,7 +50,6 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### How to play
 
-How to play here
 
 ## Specifications
 
