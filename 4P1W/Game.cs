@@ -55,7 +55,10 @@ namespace _4P1W
                 Random random = new Random();
                 wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
                 wordLength = wordChar.Count();
-
+                while (wordLength < 8)
+                {
+                    wordChar.insert((wordLength + 1), (char)random.Next('a', 'z'));
+                }
 
                 // setting the possible guess buttons to each item in the now random array
                 // Showing the correct amount of answer buttons
@@ -64,6 +67,13 @@ namespace _4P1W
                 {
                     case 1:
                         g1.Text = (wordChar[0].ToString());
+                        g2.Text = (wordChar[1].ToString());
+                        g3.Text = (wordChar[2].ToString());
+                        g4.Text = (wordChar[3].ToString());
+                        g5.Text = (wordChar[4].ToString());
+                        g6.Text = (wordChar[5].ToString());
+                        g7.Text = (wordChar[6].ToString());
+                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a1.Left = pnlAns.Width / 2 - a1.Width / 2;
                         //g1.Show();
@@ -72,6 +82,12 @@ namespace _4P1W
                     case 2:
                         g1.Text = (wordChar[0].ToString());
                         g2.Text = (wordChar[1].ToString());
+                        g3.Text = (wordChar[2].ToString());
+                        g4.Text = (wordChar[3].ToString());
+                        g5.Text = (wordChar[4].ToString());
+                        g6.Text = (wordChar[5].ToString());
+                        g7.Text = (wordChar[6].ToString());
+                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 20;
@@ -85,6 +101,11 @@ namespace _4P1W
                         g1.Text = (wordChar[0].ToString());
                         g2.Text = (wordChar[1].ToString());
                         g3.Text = (wordChar[2].ToString());
+                        g4.Text = (wordChar[3].ToString());
+                        g5.Text = (wordChar[4].ToString());
+                        g6.Text = (wordChar[5].ToString());
+                        g7.Text = (wordChar[6].ToString());
+                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -97,6 +118,10 @@ namespace _4P1W
                         g2.Text = (wordChar[1].ToString());
                         g3.Text = (wordChar[2].ToString());
                         g4.Text = (wordChar[3].ToString());
+                        g5.Text = (wordChar[4].ToString());
+                        g6.Text = (wordChar[5].ToString());
+                        g7.Text = (wordChar[6].ToString());
+                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -112,6 +137,9 @@ namespace _4P1W
                         g3.Text = (wordChar[2].ToString());
                         g4.Text = (wordChar[3].ToString());
                         g5.Text = (wordChar[4].ToString());
+                        g6.Text = (wordChar[5].ToString());
+                        g7.Text = (wordChar[6].ToString());
+                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -130,6 +158,8 @@ namespace _4P1W
                         g4.Text = (wordChar[3].ToString());
                         g5.Text = (wordChar[4].ToString());
                         g6.Text = (wordChar[5].ToString());
+                        g7.Text = (wordChar[6].ToString());
+                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -151,6 +181,7 @@ namespace _4P1W
                         g5.Text = (wordChar[4].ToString());
                         g6.Text = (wordChar[5].ToString());
                         g7.Text = (wordChar[6].ToString());
+                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
