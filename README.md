@@ -61,12 +61,12 @@ How to play here
 ### Structure Chart
 
 ### Data Dictionary
-
+ <p align="center">
 | Data Item  | Data Type | Format | Bytes of Storage | Size for Display | Description | Example | Validation |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-
+</p>
 ### Storyboard
 
 ![StoryBoard](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/StoryBoard.png?raw=true)
