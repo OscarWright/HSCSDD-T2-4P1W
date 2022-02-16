@@ -55,6 +55,10 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### IPO Chart
 
+```C#
+	this.hide();
+```
+
 | Input| Process | Output | 
 | :---: | :---: | :---: |
 | User clicks play  | ``` Form1.Hide() ```  | game is opened  |
