@@ -57,7 +57,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 | Input| Process | Output | 
 | :---: | :---: | :---: |
-| User clicks play  | Form1 is hidden and Game is opened  | game is opened  |
+| User clicks play  | ``` Form1.Hide() ```  | game is opened  |
 | `Content Cell`  | Content Cell  | Content Cell  |
 
 
