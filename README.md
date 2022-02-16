@@ -56,7 +56,7 @@ Students are to design and construct a full software solution in Visual Studio (
 ### IPO Chart
 
 <div align="center">
-	| Input  | Process | Output |
+	| Input&nbsp;&nbsp;&nbsp; | Process | Output |
 	| :---: | :---: | :---: |
 	| `Content Cell`  | Content Cell  | Content Cell  | 
 	| `Content Cell`  | Content Cell  | Content Cell  |
