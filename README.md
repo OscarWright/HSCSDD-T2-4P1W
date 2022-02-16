@@ -55,13 +55,11 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### IPO Chart
 
-<div align="center">
-	| Input| Process | Output | 
-	| :---: | :---: | :---: |
-	| `Content Cell`  | Content Cell  | Content Cell  |
-	| `Content Cell`  | Content Cell  | Content Cell  |
-</div>
-<div>
+| Input| Process | Output | 
+| :---: | :---: | :---: |
+| `Content Cell`  | Content Cell  | Content Cell  |
+| `Content Cell`  | Content Cell  | Content Cell  |
+
 
 ### Data Flow Diagram
 https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting
