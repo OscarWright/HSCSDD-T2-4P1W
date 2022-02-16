@@ -69,7 +69,7 @@ https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-f
 
 ### Storyboard
 
-![StoryBoard](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/StoryBoard.png?raw=true)
+![StoryBoard](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/storyboardv2.png?raw=true)
 
 ## Changelog
 
