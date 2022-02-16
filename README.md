@@ -57,7 +57,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 | Input| Process | Output | 
 | :---: | :---: | :---: |
-| `Content Cell`  | Content Cell  | Content Cell  |
+| User clicks play  | Form1 is hidden and Game is opened  | game is opened  |
 | `Content Cell`  | Content Cell  | Content Cell  |
 
 
