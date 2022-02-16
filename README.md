@@ -61,6 +61,7 @@ Students are to design and construct a full software solution in Visual Studio (
 	| `Content Cell`  | Content Cell  | Content Cell  | 
 	| `Content Cell`  | Content Cell  | Content Cell  |
 </div>
+<div>
 
 ### Data Flow Diagram
 https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting
