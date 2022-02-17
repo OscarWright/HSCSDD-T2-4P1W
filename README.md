@@ -37,7 +37,7 @@ Students are to design and construct a full software solution in Visual Studio (
 	- [Data Flow Diagram](#data-flow-diagram)
 	- [Structure Chart](#Structure-chart)
 	- [Data Dictionary](#data-dictionary)
-	- [Story Board](#storyboard)
+	- [Storyboard](#storyboard)
 - [Changelog](#changelog)
 - [License](#License)
 
