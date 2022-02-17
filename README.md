@@ -57,7 +57,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 | Input| Process | Output | 
 | :---: | :---: | :---: |
-| User clicks play  | ``  | game is opened  |
+| User clicks play  | `Do something`  | game is opened  |
 | `Content Cell`  | Content Cell  | Content Cell  |
 
 
