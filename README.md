@@ -63,11 +63,11 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### Context Diagram
 
-<p align="center">
+<div align="center">
 
 ![Context](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/Context.png?raw=true)
 
-</p>
+</div>
 
 ### Data Flow Diagram
 
@@ -84,11 +84,11 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### Storyboard
 
-<p align="center">
+<div align="center">
 	
 ![StoryBoard](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/storyboardv2.png?raw=true)
 	
-</p>
+</div>
 
 ## Changelog
 
