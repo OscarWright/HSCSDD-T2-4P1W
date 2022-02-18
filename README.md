@@ -34,6 +34,7 @@ Students are to design and construct a full software solution in Visual Studio (
 	- [How to play](#how-to-play)
 - [Specifications](#specifications)
 	- [IPO Chart](#IPO-Chart)
+	- [Context Diagram](#Context-Diagram)
 	- [Data Flow Diagram](#data-flow-diagram)
 	- [Structure Chart](#Structure-chart)
 	- [Data Dictionary](#data-dictionary)
@@ -59,6 +60,8 @@ Students are to design and construct a full software solution in Visual Studio (
 | :---: | :---: | :---: |
 | User clicks play  | `Home screen is hidden and game screen is shown`  | Game starts  |
 | `Content Cell`  | Content Cell  | Content Cell  |
+
+### Context Diagram
 
 
 ### Data Flow Diagram
