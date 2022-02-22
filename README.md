@@ -65,7 +65,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 <div align="center">
 
-	![Context](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/Context.png?raw=true)
+![Context](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/Context.png?raw=true)
 
 </div>
 
