@@ -60,7 +60,7 @@ Students are to design and construct a full software solution in Visual Studio (
 | :---: | :---: | :---: |
 | User clicks 'Play'  | `Game form is opened and Form1 is hidden`  | Game starts  |
 | User clicks 'How to play'  | `Help form is opened and Form1 is hidden`  | Help form is shown  |
-| User Clicks 'Back' (Game) | ` Dialogue is shown to confirm if the user is sure they want to exit, if yes Game form is hidden and Form 1 is shown  ` | |
+| User selects a guess letter | `Check for the leftest empty answer box, set the text in the answer box to the guessed letter` | Guessed letter is shown in the answer array |
 
 ### Context Diagram
 
