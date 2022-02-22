@@ -58,8 +58,8 @@ Students are to design and construct a full software solution in Visual Studio (
 
 | Input| Process | Output | 
 | :---: | :---: | :---: |
-| User clicks play  | `Home screen is hidden and game screen is shown`  | Game starts  |
-| `Content Cell`  | Content Cell  | Content Cell  |
+| User clicks 'Play'  | `Home screen is hidden and game screen is shown`  | Game starts  |
+| User click 'How to play'  | `Home screen is hidden and Help screen is shown`  | Help screen is shown  |
 
 ### Context Diagram
 
