@@ -63,6 +63,7 @@ Students are to design and construct a full software solution in Visual Studio (
 | User selects a guess letter | `locate the leftest empty answer box, set the text in the answer box to the guessed letter` | Guessed letter is shown in the array of answer boxes |
 | User clicks 'Clear' | `Clear the answer boxes, Reset and randomise the possible guess buttons `| Guesses and possible guesses are returned to their original positon.|
 | User clicks 'Check' | `Concatenate all text inside the answer boxes and compare to the string to original word` | Confirmation of guess (Correct/Incorrect), notify player of remaining attempts, update score, update index variables |
+| player fails to guess the word after 3 attempts | ` Pull the index specific hint from the Hints array and display it via a message box ` | Hint |
 
 ### Context Diagram
 
