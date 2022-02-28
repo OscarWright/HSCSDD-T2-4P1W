@@ -50,7 +50,13 @@ Students are to design and construct a full software solution in Visual Studio (
 
 
 ### How to play
-
+ The aim of four pics one word is to correctly guess a word in which 4 relevant pictures are shown as clues.
+ 
+ To input a guess click the letters at the bottom of the screen in sequence to form a word, and then click check to see if the answer is correct or not. 
+ 
+ You will have 5 attempts to correctly guess a word, after 3 attempts you will be prompted with a hint. 
+ 
+ To clear your selection of a word press the clear button.
 
 ## Specifications
 
