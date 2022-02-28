@@ -54,9 +54,9 @@ Students are to design and construct a full software solution in Visual Studio (
  
 > To input a guess, click the letters at the bottom of the screen in sequence to form a word
 >
-> click check to see if the answer is correct or not. 
+> Click the 'Check' Button to see if your guess is correct or not. 
 >
-> To clear your selection of a word press the clear button.
+> To clear your selection press the 'Clear' button.
 
 ## Specifications
 
