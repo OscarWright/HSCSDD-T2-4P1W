@@ -65,8 +65,6 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 >
 > To clear your selection press the 'Clear' button.
 
-[^1]
-
 ## Specifications
 
 ### IPO Chart
