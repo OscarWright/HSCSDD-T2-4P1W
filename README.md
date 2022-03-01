@@ -45,7 +45,7 @@ Students are to design and construct a full software solution in Visual Studio (
 ## Getting Started
 
 <img align="right" height="350" src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/how2.gif">
-<figcaption>Pre-Release version shown</figcaption>
+
 
 ### Install
 
@@ -65,6 +65,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 > To clear your selection press the 'Clear' button.
 
 
+<p align="right"> Pre-release version shown. </p>
 
 ## Specifications
 
