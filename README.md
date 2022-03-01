@@ -51,7 +51,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### How to play
 
- <img align="right" width="200" height="500" src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/how2.gif">
+ <img align="right" width="300" height="500" src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/how2.gif">
  
 The aim of four pics one word is to correctly guess a word in which 4 relevant pictures are shown as clues, you will have 5 attempts to correctly guess a word and after 3 attempts you will be prompted with a hint. 
   
