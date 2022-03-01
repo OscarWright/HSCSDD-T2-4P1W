@@ -46,8 +46,8 @@ Students are to design and construct a full software solution in Visual Studio (
 
 <p align="Right">
 	<img align="right" height="350" src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/how2.gif">
-	<b>Pre-release version shown.</b><br>
-	
+	<br>
+	<b>Pre-release version shown.</b>
 </p>
 
 
