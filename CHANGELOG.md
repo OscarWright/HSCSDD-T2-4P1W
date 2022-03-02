@@ -9,7 +9,7 @@
 
 - [IPO Chart](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#ipo-chart) completed.
 <div align="center">
-  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/IPODOC.png" height=200>
+  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/IPODOC.png" height=300>
 </div> 
 
 
