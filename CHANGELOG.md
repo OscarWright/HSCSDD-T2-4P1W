@@ -3,7 +3,7 @@
 **Documentation added:**
 - [Getting started](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#getting-started) section completed (Download and how to play).
 <div align="center">
-  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/GSDOC.png" height=200>
+  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/GSDOC.png" height=400>
 </div>
 
 **WIP:**
@@ -19,7 +19,7 @@
 **Documentation added:**
 - [IPO Chart](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#ipo-chart) completed.
 <div align="center">
-  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/IPODOC.png" height=300>
+  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/IPODOC.png" height=400>
 </div> 
 
 - [Context Diagram](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#context-diagram) completed.
@@ -34,7 +34,7 @@
 
 - [Storyboard](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#storyboard) completed.
 <div align="center">
-  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/storyboardv2.png" height=300>
+  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/storyboardv2.png" height=400>
 </div> 
 
 
