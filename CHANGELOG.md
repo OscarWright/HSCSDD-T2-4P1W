@@ -3,8 +3,9 @@
 **Documentation added:**
 
 - Getting started section completed (Download and how to play).
-<img align="middle" src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/GSDOC.png" height=200>
-
+<div align="center">
+  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/GSDOC.png" height=200>
+</div>
 
 ## [0.0.4](https://github.com/OscarWright/HSCSDD-T2-4P1W) (3-01-2022)
 
