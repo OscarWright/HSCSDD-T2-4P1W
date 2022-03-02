@@ -7,6 +7,14 @@
   <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/GSDOC.png" height=200>
 </div>
 
+- [IPO Chart](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#ipo-chart) completed.
+<div align="center">
+  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/IPODOC.png" height=200>
+</div> 
+
+
+
+
 ## [0.0.4](https://github.com/OscarWright/HSCSDD-T2-4P1W) (3-01-2022)
 
 **Features added:**
