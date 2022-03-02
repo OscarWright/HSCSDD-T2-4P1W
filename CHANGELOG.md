@@ -2,7 +2,7 @@
 
 **Documentation added:**
 
-- Getting started section completed (Download and how to play).
+- [Getting started](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#getting-started) section completed (Download and how to play).
 <div align="center">
   <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/GSDOC.png" height=200>
 </div>
