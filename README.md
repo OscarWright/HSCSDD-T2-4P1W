@@ -112,7 +112,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 ## Changelog
 
-[Changelog](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/changelog.md)
+[Changelog](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/CHANGELOG.md)
 
 ## License
 
