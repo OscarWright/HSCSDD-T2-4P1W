@@ -1,12 +1,15 @@
-## [0.0.5](https://github.com/OscarWright/HSCSDD-T2-4P1W) (3-01-2022)
+## [0.0.7](https://github.com/OscarWright/HSCSDD-T2-4P1W) (2-03-2022)
 
 **Documentation added:**
-
 - [Getting started](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#getting-started) section completed (Download and how to play).
 <div align="center">
   <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/GSDOC.png" height=200>
 </div>
 
+
+## [0.0.6](https://github.com/OscarWright/HSCSDD-T2-4P1W) (25-02-2022)
+
+**Documentation added:**
 - [IPO Chart](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#ipo-chart) completed.
 <div align="center">
   <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/IPODOC.png" height=300>
@@ -17,12 +20,15 @@
   <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/Context.png" height=300>
 </div> 
 
+
+## [0.0.5](https://github.com/OscarWright/HSCSDD-T2-4P1W) (16-02-2022)
+
+**Documentation added:**
+
 - [Storyboard](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#storyboard) completed.
 <div align="center">
   <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/storyboardv2.png" height=300>
 </div> 
-
-
 
 
 ## [0.0.4](https://github.com/OscarWright/HSCSDD-T2-4P1W) (3-01-2022)
