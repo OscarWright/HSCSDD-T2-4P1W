@@ -6,6 +6,12 @@
   <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/GSDOC.png" height=200>
 </div>
 
+**WIP:**
+
+- Method to add random letters into unfilled guess boxes when a word is < 8 characters long, Currenly non functional causing game to crash...
+- ![Rand_letter_selector_error](https://user-images.githubusercontent.com/95724132/156281335-0b76ffe1-cfbb-4201-ae2f-77a03565c43a.gif)
+
+
 
 ## [0.0.6](https://github.com/OscarWright/HSCSDD-T2-4P1W) (25-02-2022)
 
