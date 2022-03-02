@@ -12,6 +12,11 @@
   <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/IPODOC.png" height=300>
 </div> 
 
+- [Context Diagram](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/README.md#context-diagram) completed.
+<div align="center">
+  <img src="https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/Context.png" height=300>
+</div> 
+
 
 
 
