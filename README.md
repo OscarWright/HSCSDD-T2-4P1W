@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/OscarWright/HSCSDD-T2-4P1W">
-    <img src="icon.png" alt="Logo" width="100" height="100">
+    <img src="/DOCS/icon.png" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">4 Pics 1 Word</h3>
