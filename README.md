@@ -39,6 +39,7 @@ Students are to design and construct a full software solution in Visual Studio (
 	- [Structure Chart](#Structure-chart)
 	- [Data Dictionary](#data-dictionary)
 	- [Storyboard](#storyboard)
+- [Gantt Chart](#Gantt-Chart)
 - [Changelog](#changelog)
 - [License](#License)
 
@@ -109,6 +110,8 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 ![StoryBoard](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/storyboardv2.png?raw=true)
 	
 </div>
+
+## Gantt Chart
 
 ## Changelog
 
