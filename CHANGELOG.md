@@ -1,3 +1,7 @@
+## [0.0.8](https://github.com/OscarWright/HSCSDD-T2-4P1W) (9-03-2022)
+**Fixed:**
+  - random character adding ....  
+  
 ## [0.0.7](https://github.com/OscarWright/HSCSDD-T2-4P1W) (2-03-2022)
 
 **Documentation added:**
