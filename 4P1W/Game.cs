@@ -49,16 +49,21 @@ namespace _4P1W
                 pic3.Image = imageList.Images[2 + p];
                 pic4.Image = imageList.Images[3 + p];
 
+                // initialising the random class
+                Random random = new Random();
+
+                // Filling in empty user guess boxes 
+                string wordWithExtras = word[index];
+                while (wordWithExtras.Length < 8)
+                {
+                    wordWithExtras = wordWithExtras + (char)random.Next('a', 'z');
+                }
 
                 // splitting the word into characters and then randomising the array
-                char[] wordChar = (word[index]).ToCharArray();
-                Random random = new Random();
+                char[] wordChar = (wordWithExtras).ToCharArray();
                 wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
-                wordLength = wordChar.Count();
-                while (wordLength < 8)
-                {
-                    wordChar.insert((wordLength + 1), (char)random.Next('a', 'z'));
-                }
+                wordLength = word[index].Length;
+                
 
                 // setting the possible guess buttons to each item in the now random array
                 // Showing the correct amount of answer buttons
@@ -76,8 +81,6 @@ namespace _4P1W
                         g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a1.Left = pnlAns.Width / 2 - a1.Width / 2;
-                        //g1.Show();
-                        //g1.Left = pnlGuess.Width / 2 - g1.Width / 2;
                         break;
                     case 2:
                         g1.Text = (wordChar[0].ToString());
@@ -92,10 +95,6 @@ namespace _4P1W
                         a2.Show();
                         a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 20;
                         a2.Left = (pnlAns.Width / 2 - a2.Width / 2) + 20;
-                        //g1.Show();
-                        //g2.Show();
-                        //g1.Left = (pnlGuess.Width / 2 - g1.Width / 2) - 20;
-                        //g2.Left = (pnlGuess.Width / 2 - g2.Width / 2) + 20;
                         break;
                     case 3:
                         g1.Text = (wordChar[0].ToString());
