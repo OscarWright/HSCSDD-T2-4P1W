@@ -1,5 +1,5 @@
 ## [0.0.9](https://github.com/OscarWright/HSCSDD-T2-4P1W) (9-03-2022)
-** Added:**
+**Added:**
   - Help ('how to play') page populated
   <div align="center">
     <img src="https://user-images.githubusercontent.com/95724132/157345363-872588a3-38fc-4047-9d28-0ecb18c05101.png" height=500>
