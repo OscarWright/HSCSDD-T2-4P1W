@@ -1,6 +1,8 @@
 ## [0.0.8](https://github.com/OscarWright/HSCSDD-T2-4P1W) (9-03-2022)
 **Fixed:**
   - random character adding ....  
+
+https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/e76fbf7f2ea9ae046795c7aee67671876a89cb45/4P1W/Game.cs#L55-L60
   
 ## [0.0.7](https://github.com/OscarWright/HSCSDD-T2-4P1W) (2-03-2022)
 
