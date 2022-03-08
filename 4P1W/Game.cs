@@ -236,6 +236,7 @@ namespace _4P1W
             else
             {
                 MessageBox.Show("GameOver");
+                // add score board call or simillar
             }
         }
 
@@ -247,15 +248,17 @@ namespace _4P1W
             // Compare the concatenated string the the word
             if (guess == word[index])
             {
-                MessageBox.Show("Correct     * index = " + index.ToString());
                 // incrementing the game index
                 index++;
                 // incrementing the score minus the attempts
                 score = score + (10 - attempts);
                 // incrementing the picture index
                 p = p + 4;
-                MessageBox.Show(score.ToString());
+                // show confirmation
+                MessageBox.Show("Correct, Your score is: " + score.ToString());
+                // Reset attempts 
                 attempts = 0;
+                // Call the game function
                 game();
             }
             // if the sting does not match
