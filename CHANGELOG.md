@@ -4,7 +4,8 @@
   <div align="center">
     <img src="https://user-images.githubusercontent.com/95724132/157345363-872588a3-38fc-4047-9d28-0ecb18c05101.png" height=500>
   </div>
-  - returnAns() function added to allow users to undo an answer selection by clicking an answer.
+  </br>
+  - ReturnAns() function added to allow users to undo an answer selection by clicking an answer.
   https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/0f85c4cc1325834d1737fdd4f800af248114014e/4P1W/Game.cs#L322-L358
 
 
