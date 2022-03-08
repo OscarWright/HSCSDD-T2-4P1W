@@ -1,8 +1,12 @@
 ## [0.0.8](https://github.com/OscarWright/HSCSDD-T2-4P1W) (9-03-2022)
-**Fixed:**
-  - random character adding ....  
-
+**Fixed/Added:**
+  - Method to add random letters into unfilled guess boxes when a word is < 8 characters long.
 https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/e76fbf7f2ea9ae046795c7aee67671876a89cb45/4P1W/Game.cs#L55-L60
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/95724132/157146029-eefb184f-d2a3-4648-acb3-4b4200d70075.gif" height=500>
+</div>
+
   
 ## [0.0.7](https://github.com/OscarWright/HSCSDD-T2-4P1W) (2-03-2022)
 
