@@ -64,7 +64,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 >
 > Click the 'Check' Button to see if your guess is correct or not. 
 >
-> To clear your selection press the 'Clear' button.
+> To clear your selection press the 'Clear' button, or to remove a single character click the answer box with the character you would like to remove
 
 ## Specifications
 
