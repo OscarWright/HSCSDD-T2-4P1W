@@ -319,6 +319,44 @@ namespace _4P1W
             }
         }
 
+        public void returnAns(Button c)
+        {
+            // checks for an empty guess btn, and fills from left to right when a answer is clicked
+
+            if (g1.Text.Equals(""))
+            {
+                g1.Text = c.Text;
+            }
+            else if (g2.Text.Equals(""))
+            {
+                g2.Text = c.Text;
+            }
+            else if (g3.Text.Equals(""))
+            {
+                g3.Text = c.Text;
+            }
+            else if (g4.Text.Equals(""))
+            {
+                g4.Text = c.Text;
+            }
+            else if (g5.Text.Equals(""))
+            {
+                g5.Text = c.Text;
+            }
+            else if (g6.Text.Equals(""))
+            {
+                g6.Text = c.Text;
+            }
+            else if (g7.Text.Equals(""))
+            {
+                g7.Text = c.Text;
+            }
+            else if (g8.Text.Equals(""))
+            {
+                g8.Text = c.Text;
+            }
+        }
+
         private void btnExit_Click(object sender, EventArgs e)
         {
             // y/n dialog box
@@ -390,6 +428,54 @@ namespace _4P1W
         private void btnCheck_Click(object sender, EventArgs e)
         {
             checkAns();
+        }
+
+        private void a1_Click(object sender, EventArgs e)
+        {
+            returnAns(a1);
+            a1.Text = "";
+        }
+
+        private void a2_Click(object sender, EventArgs e)
+        {
+            returnAns(a2);
+            a2.Text = "";
+        }
+
+        private void a3_Click(object sender, EventArgs e)
+        {
+            returnAns(a3);
+            a3.Text = "";
+        }
+
+        private void a4_Click(object sender, EventArgs e)
+        {
+            returnAns(a4);
+            a4.Text = "";
+        }
+
+        private void a5_Click(object sender, EventArgs e)
+        {
+            returnAns(a5);
+            a5.Text = "";
+        }
+
+        private void a6_Click(object sender, EventArgs e)
+        {
+            returnAns(a6);
+            a6.Text = "";
+        }
+
+        private void a7_Click(object sender, EventArgs e)
+        {
+            returnAns(a7);
+            a7.Text = "";
+        }
+
+        private void a8_Click(object sender, EventArgs e)
+        {
+            returnAns(a8);
+            a8.Text = "";
         }
     }
 }
