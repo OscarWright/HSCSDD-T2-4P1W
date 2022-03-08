@@ -15,6 +15,10 @@ namespace _4P1W
         public frmHelp()
         {
             InitializeComponent();
+            panel1.Visible = true;
+            panel3.Visible = false;
+            panel2.Visible = false;
+
         }
 
         private void btnBack_Click(object sender, EventArgs e)
@@ -25,6 +29,50 @@ namespace _4P1W
             frmMenu.Show();
             //Hiding the help screen (this form)
             this.Hide();
+        }
+
+        private void btn_infoNext_Click(object sender, EventArgs e)
+        {
+            if (panel1.Visible)
+            {
+                panel1.Visible = false;
+                panel2.Visible = true;
+                panel3.Visible = false;
+            }
+            else if (panel2.Visible)
+            {
+                panel1.Visible = false;
+                panel2.Visible = false;
+                panel3.Visible = true;
+            }
+            else if (panel3.Visible)
+            {
+                panel1.Visible = true;
+                panel2.Visible = false;
+                panel3.Visible = false;
+            }
+        }
+
+        private void btn_infoBack_Click(object sender, EventArgs e)
+        {
+            if (panel1.Visible)
+            {
+                panel1.Visible = false;
+                panel2.Visible = false;
+                panel3.Visible = true;
+            }
+            else if (panel2.Visible)
+            {
+                panel1.Visible = true;
+                panel2.Visible = false;
+                panel3.Visible = false;
+            }
+            else if (panel3.Visible)
+            {
+                panel1.Visible = false;
+                panel2.Visible = true;
+                panel3.Visible = false;
+            }
         }
     }
 }
