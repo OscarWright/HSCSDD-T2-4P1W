@@ -7,6 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using PdfSharp.Drawing;
+using PdfSharp.Pdf;
+using System.Diagnostics;
+using Microsoft.VisualBasic;
+
 
 namespace _4P1W
 {
@@ -235,9 +240,44 @@ namespace _4P1W
             }
             else
             {
-                MessageBox.Show("GameOver");
-                // add score board call or simillar
+                // Call ScoreboadPrint() function
+                ScoreboardPrint();
             }
+        }
+
+
+        public void ScoreboardPrint()
+        {
+            string playerName = Interaction.InputBox("What is your name?", "Game Over", "Name", 960, 540);
+
+
+            //Create PDF Document
+            PdfDocument document = new PdfDocument();
+            //You will have to add Page in PDF Document
+            PdfPage page = document.AddPage();
+            //For drawing in PDF Page you will nedd XGraphics Object
+            XGraphics gfx = XGraphics.FromPdfPage(page);
+            //For Test you will have to define font to be used
+            XFont font = new XFont("Verdana", 20, XFontStyle.Bold);
+            //Finally use XGraphics & font object to draw text in PDF Page
+            gfx.DrawString("Congratulations " + playerName, font, XBrushes.Black,
+                new XRect(0, 0, page.Width, page.Height - 20), XStringFormats.Center);
+            gfx.DrawString("Your score is: " + score, font, XBrushes.Black,
+                new XRect(0, 0, page.Width, page.Height + 20), XStringFormats.Center);
+
+            //Specify file name of the PDF file
+            string filename = "4P1W_Score_" + playerName + ".pdf";
+            //Save PDF File
+            document.Save(filename);
+            //Load PDF File for viewing
+            Process.Start(filename);
+
+            //Creating a class for the help window
+            Form1 frmMenu = new Form1();
+            //Showing the menu window
+            frmMenu.Show();
+            //Hiding the game (this form)
+            this.Hide();
         }
 
         public void checkAns()
