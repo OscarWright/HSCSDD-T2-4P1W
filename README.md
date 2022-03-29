@@ -115,6 +115,9 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 insert gannt chart here...
 
+![GantChart](https://user-images.githubusercontent.com/95724132/160513910-b156921e-5af3-422c-a28b-e5e6641fb924.png)
+
+
 ## Changelog
 
 [Changelog](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/CHANGELOG.md)
