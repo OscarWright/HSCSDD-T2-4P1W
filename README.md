@@ -107,7 +107,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 <div align="center">
 	
-![StoryBoard](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/storyboardv2.png?raw=true)
+![StoryBoard](/DOCS/storyboardv2.png)
 	
 </div>
 
@@ -115,7 +115,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 <div align="center">
 
-![image](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/Gantt.svg)
+![image](/DOCS/Gantt.svg)
 	
 </div>
 
