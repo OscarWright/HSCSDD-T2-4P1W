@@ -51,7 +51,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### Install
 
-> Windows x64 Portable - [Download](https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe)
+> Windows x64 Portable - [Download ⬇️](https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe)
 
 
 ### How to play
@@ -121,7 +121,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 ## Changelog
 
-[Changelog](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/CHANGELOG.md)
+[Changelog / Logbook 📘](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/CHANGELOG.md)
 
 ## License
 
