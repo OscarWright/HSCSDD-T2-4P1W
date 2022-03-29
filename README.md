@@ -113,9 +113,11 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 ## Gantt Chart
 
-insert gannt chart here...
+<div align="center">
 
-![image](https://user-images.githubusercontent.com/95724132/160513956-62fc1d32-f795-4c25-9a46-4f19abf11cfd.png)
+	![image](https://user-images.githubusercontent.com/95724132/160513956-62fc1d32-f795-4c25-9a46-4f19abf11cfd.png)
+	
+</div>
 
 ## Changelog
 
