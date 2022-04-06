@@ -51,7 +51,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### Install
 
-> Windows x64 Portable - [Download](https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe)
+> Windows x64 Portable - [Download ⬇️](https://github.com/OscarWright/HSCSDD-T2-4P1W/raw/main/4P1W/bin/Debug/4P1W.exe)
 
 
 ### How to play
@@ -81,12 +81,13 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 | User guesses incorrectly | `Increment attempts by 1, Show message box with confirmation and attempts remaining (5 - Attempts), call the game function.` | Confirmation, Attempts remaining |
 | User fails to guess the word after 3 attempts | ` Pull the index specific hint from the Hints array and display it via a message box ` | Hint |
 | User fails to guess the word after 5 attempts | ` Generate message box to show user that the game is over` | Game over notification, User is sent to Main form | 
+| User completes the game | ` ` | Open scoreboard... | 
 
 ### Context Diagram
 
 <div align="center">
 
-![Context](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/Context.png?raw=true)
+![Context](/DOCS/Context.png)
 
 </div>
 
@@ -107,17 +108,21 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 <div align="center">
 	
-![StoryBoard](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/DOCS/storyboardv2.png?raw=true)
+![StoryBoard](/DOCS/storyboardv2.png)
 	
 </div>
 
 ## Gantt Chart
 
-insert gannt chart here...
+<div align="center">
+
+![image](/DOCS/Gantt.svg)
+	
+</div>
 
 ## Changelog
 
-[Changelog](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/CHANGELOG.md)
+[Changelog / Logbook 📘](https://github.com/OscarWright/HSCSDD-T2-4P1W/blob/main/CHANGELOG.md)
 
 ## License
 

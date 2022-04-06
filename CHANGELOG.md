@@ -1,3 +1,11 @@
+## [0.0.10](https://github.com/OscarWright/HSCSDD-T2-4P1W) (11-03-2022)
+**WIP:**
+  - Printable score board created but requires additional work.
+
+**Added:**
+ - Gantt Chart 
+ - Changed some links in the readme.md
+
 ## [0.0.9](https://github.com/OscarWright/HSCSDD-T2-4P1W) (9-03-2022)
 **Added:**
   - Help ('how to play') page populated
