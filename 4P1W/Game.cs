@@ -250,14 +250,18 @@ namespace _4P1W
         {
             string playerName = Interaction.InputBox("What is your name?", "Game Over", "Name", 960, 540);
 
-
             //Create PDF Document
             PdfDocument document = new PdfDocument();
             //You will have to add Page in PDF Document
             PdfPage page = document.AddPage();
             //For drawing in PDF Page you will nedd XGraphics Object
             XGraphics gfx = XGraphics.FromPdfPage(page);
-            //For Test you will have to define font to be used
+
+         
+            XImage image = XImage.FromFile("C:/Users/oscar.wright1/Source/Repos/OscarWright/HSCSDD-T2-4P1W/4P1W/icon.PNG");
+            gfx.DrawImage(image, 0, 0, 500, 500);
+
+            //For Text you will have to define font to be used
             XFont font = new XFont("Verdana", 20, XFontStyle.Bold);
             //Finally use XGraphics & font object to draw text in PDF Page
             gfx.DrawString("Congratulations " + playerName, font, XBrushes.Black,
