@@ -95,7 +95,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 <div align="center">
 	
-![DFD](https://user-images.githubusercontent.com/95724132/168520440-45bb637b-6e01-40a0-9c32-2ab32b851674.png)
+![DFD](https://user-images.githubusercontent.com/95724132/168521646-c5d46cfa-d85b-4269-9069-1256b01a2862.png)
 	
 </div>
 
