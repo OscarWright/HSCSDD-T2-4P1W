@@ -87,7 +87,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 <div align="center">
 
-![Context](https://user-images.githubusercontent.com/95724132/168520632-cf984256-cf54-4fa9-a457-a220049e230f.png)
+![Context](https://user-images.githubusercontent.com/95724132/168520698-c6265d6e-fd1b-4806-9106-a90472c50270.png)
 
 </div>
 
