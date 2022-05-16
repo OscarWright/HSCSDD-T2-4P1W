@@ -93,7 +93,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 ### Data Flow Diagram
 
-![DFD task 2](https://user-images.githubusercontent.com/95724132/168519602-44010d19-495c-4c96-b32e-ec80ae3879d7.svg)
+![DFD](https://user-images.githubusercontent.com/95724132/168519829-523756b8-369c-4ae8-83ef-8aea63ce10e1.png)
 
 ### Structure Chart
 
