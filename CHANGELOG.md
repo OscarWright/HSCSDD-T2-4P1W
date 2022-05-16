@@ -1,3 +1,10 @@
+## [0.0.11](https://github.com/OscarWright/HSCSDD-T2-4P1W) (16-05-2022)
+**Added:**
+ - DFD diagram
+
+**Fixed:**
+  - Context diagram visibility for light mode users 💀
+
 ## [0.0.10](https://github.com/OscarWright/HSCSDD-T2-4P1W) (11-03-2022)
 **WIP:**
   - Printable score board created but requires additional work.
