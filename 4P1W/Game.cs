@@ -257,8 +257,8 @@ namespace _4P1W
             //For drawing in PDF Page you will nedd XGraphics Object
             XGraphics gfx = XGraphics.FromPdfPage(page);
 
-         
-            XImage image = XImage.FromFile("C:/Users/oscar.wright1/Source/Repos/OscarWright/HSCSDD-T2-4P1W/4P1W/icon.PNG");
+
+            XImage image = XImage.FromFile("..\\..\\icon.PNG");
             gfx.DrawImage(image, 0, 0, 500, 500);
 
             //For Text you will have to define font to be used
