@@ -87,15 +87,15 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 <div align="center">
 
-![Context](https://user-images.githubusercontent.com/95724132/168520698-c6265d6e-fd1b-4806-9106-a90472c50270.png)
+![Context Diagram](https://user-images.githubusercontent.com/95724132/169432810-b2e62e8b-3725-4b3c-bbd0-41ba90e31715.svg)
 
 </div>
 
 ### Data Flow Diagram
 
 <div align="center">
-	
-![DFD](https://user-images.githubusercontent.com/95724132/168521646-c5d46cfa-d85b-4269-9069-1256b01a2862.png)
+
+![Data flow diagram](https://user-images.githubusercontent.com/95724132/169432849-5abfb690-079e-4f45-8dbf-3167ed17b445.svg)
 	
 </div>
 
