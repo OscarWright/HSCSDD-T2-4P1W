@@ -56,7 +56,7 @@ Students are to design and construct a full software solution in Visual Studio (
 
 ### How to play
 
- 
+<div align="left">
  
 The aim of four pics one word is to correctly guess a word in which 4 relevant pictures are shown as clues, you will have 5 attempts to correctly guess a word and after 3 attempts you will be prompted with a hint. 
   
@@ -65,6 +65,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 > Click the 'Check' Button to see if your guess is correct or not. 
 >
 > To clear your selection press the 'Clear' button, or to remove a single character click the answer box with the character you would like to remove
+</div>
 
 ## Specifications
 
