@@ -107,8 +107,16 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 
 | Data Item  | Data Type | Format | Bytes of Storage | Size for Display | Description | Example | Validation |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `Content Cell`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| `Content Cell`  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| `word()`  | string array  | "aaaaa","aaaaa","aaaaa","aaaaa","aaaaa"  | 256  | 32  | Array containing wordlist for the game  | "Bus", "Code", "Home", "cat", "dog"  | must be a string  |
+| `hint()`  | string array  |  "aaaaa","aaaaa","aaaaa","aaaaa","aaaaa" | 256  | 64  | Array containing hints for the game | "synonym of precise, exact or correct", "may show important information (noun) or complete a contract (verb)"  | must be a string  |
+| `index` | integer | #### | 4 | 4 | global index for the game | 1 | must be a number/integer |
+| `p` | integer | ##### | 4 | 4 | index for the pictures | 1 | must be a number/integer|
+| `wordlength` | integer | ## | 2 | 2 | length of the current word | 8 | Must be an integer, 0 > wordlength < 50. |
+| `attempts` | integer | # | 1 | 1 | Amount of attempts the user has made | 2 | Must be an integer, 0 <= attempts < 6. |
+| `score` | integer | ## | 2 | 2 | The users score | 26 | Must be an integer, 0 < score <= 50. |
+| `wordWithExtras` | string | aaaaaaaa | 8 | 8 | Word(index) with added characters | "Busqiska" | must be a string. |
+| `wordChar()` | Char array | "a","a","a","a","a","a","a","a" | 8 | 1 | word with extras split into a char array | "b","u","s","q","i","s","k","a" | must be a char. |
+
 
 ### Storyboard
 
