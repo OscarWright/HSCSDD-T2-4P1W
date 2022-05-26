@@ -82,7 +82,7 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 | User guesses incorrectly | `Increment attempts by 1, Show message box with confirmation and attempts remaining (5 - Attempts), call the game function.` | Confirmation, Attempts remaining |
 | User fails to guess the word after 3 attempts | ` Pull the index specific hint from the Hints array and display it via a message box ` | Hint |
 | User fails to guess the word after 5 attempts | ` Generate message box to show user that the game is over` | Game over notification, User is sent to Main form | 
-| User completes the game | ` ` | Open scoreboard... | 
+| User completes the game | `A PDF is generated with PDFSharp and is opened ` | A personalised PDF scoresheet | 
 
 ### Context Diagram
 
