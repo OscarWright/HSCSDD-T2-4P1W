@@ -235,7 +235,8 @@ namespace _4P1W
 
                 if (attempts == 3)
                 {
-                    MessageBox.Show("Hint: ", hint[index]);
+                    string hintMsg = ("Hint: " + hint[index]);
+                    MessageBox.Show(hintMsg);
                 }
             }
             else
