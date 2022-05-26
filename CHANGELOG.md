@@ -1,3 +1,11 @@
+## [0.0.12](https://github.com/OscarWright/HSCSDD-T2-4P1W) (27-05-2022)
+**Populated:**
+ - Data dictionary
+
+![image](https://user-images.githubusercontent.com/95724132/170595482-7c143bf9-220f-4531-9d97-7c76a80e3be0.png)
+
+
+
 ## [0.0.11](https://github.com/OscarWright/HSCSDD-T2-4P1W) (16-05-2022)
 **Added:**
  - DFD diagram
