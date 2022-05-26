@@ -100,9 +100,6 @@ The aim of four pics one word is to correctly guess a word in which 4 relevant p
 	
 </div>
 
-### Structure Chart
-
-
 ### Data Dictionary
 
 | Data Item  | Data Type | Format | Bytes of Storage | Size for Display | Description | Example | Validation |
