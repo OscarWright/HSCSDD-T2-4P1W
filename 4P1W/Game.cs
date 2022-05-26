@@ -19,7 +19,7 @@ namespace _4P1W
     {
         //global vars
         string[] word = { "accurate", "sign", "school", "disaster", "letter" };
-        string[] hint = { "synonym of precise, exact or correct", "may show important information (noun) or complete a contract (verb)"};
+        string[] hint = { "synonym of precise, exact or correct", "may show important information (noun) or complete a contract (verb)", "A place of learning", "a sudden accident or a natural catastrophe that causes great damage or loss of life.", "a character representing one or more of the sounds used in speech; any of the symbols of an alphabet." };
         int index = 0;
         int p = 0;
         int wordLength = 0;
