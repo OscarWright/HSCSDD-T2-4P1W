@@ -37,6 +37,7 @@ namespace _4P1W
             game();
         }
 
+
         public void game()
         {
             if (index <= 4)
@@ -68,48 +69,35 @@ namespace _4P1W
                 char[] wordChar = (wordWithExtras).ToCharArray();
                 wordChar = wordChar.OrderBy(x => random.Next()).ToArray();
                 wordLength = word[index].Length;
-                
+
 
                 // setting the possible guess buttons to each item in the now random array
                 // Showing the correct amount of answer buttons
                 // Centering the answer buttons (manually - I couldn't find a way to automatically do this)
+                g1.Text = (wordChar[0].ToString());
+                g2.Text = (wordChar[1].ToString());
+                g3.Text = (wordChar[2].ToString());
+                g4.Text = (wordChar[3].ToString());
+                g5.Text = (wordChar[4].ToString());
+                g6.Text = (wordChar[5].ToString());
+                g7.Text = (wordChar[6].ToString());
+                g8.Text = (wordChar[7].ToString());
+
                 switch (wordLength)
                 {
                     case 1:
-                        g1.Text = (wordChar[0].ToString());
-                        g2.Text = (wordChar[1].ToString());
-                        g3.Text = (wordChar[2].ToString());
-                        g4.Text = (wordChar[3].ToString());
-                        g5.Text = (wordChar[4].ToString());
-                        g6.Text = (wordChar[5].ToString());
-                        g7.Text = (wordChar[6].ToString());
-                        g8.Text = (wordChar[7].ToString());
+                        
                         a1.Show();
                         a1.Left = pnlAns.Width / 2 - a1.Width / 2;
                         break;
                     case 2:
-                        g1.Text = (wordChar[0].ToString());
-                        g2.Text = (wordChar[1].ToString());
-                        g3.Text = (wordChar[2].ToString());
-                        g4.Text = (wordChar[3].ToString());
-                        g5.Text = (wordChar[4].ToString());
-                        g6.Text = (wordChar[5].ToString());
-                        g7.Text = (wordChar[6].ToString());
-                        g8.Text = (wordChar[7].ToString());
+                       
                         a1.Show();
                         a2.Show();
                         a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 20;
                         a2.Left = (pnlAns.Width / 2 - a2.Width / 2) + 20;
                         break;
                     case 3:
-                        g1.Text = (wordChar[0].ToString());
-                        g2.Text = (wordChar[1].ToString());
-                        g3.Text = (wordChar[2].ToString());
-                        g4.Text = (wordChar[3].ToString());
-                        g5.Text = (wordChar[4].ToString());
-                        g6.Text = (wordChar[5].ToString());
-                        g7.Text = (wordChar[6].ToString());
-                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -118,14 +106,6 @@ namespace _4P1W
                         a3.Left = (pnlAns.Width / 2 - a1.Width / 2) + 40;
                         break;
                     case 4:
-                        g1.Text = (wordChar[0].ToString());
-                        g2.Text = (wordChar[1].ToString());
-                        g3.Text = (wordChar[2].ToString());
-                        g4.Text = (wordChar[3].ToString());
-                        g5.Text = (wordChar[4].ToString());
-                        g6.Text = (wordChar[5].ToString());
-                        g7.Text = (wordChar[6].ToString());
-                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -136,14 +116,6 @@ namespace _4P1W
                         a4.Left = (pnlAns.Width / 2 - a2.Width / 2) + 60;
                         break;
                     case 5:
-                        g1.Text = (wordChar[0].ToString());
-                        g2.Text = (wordChar[1].ToString());
-                        g3.Text = (wordChar[2].ToString());
-                        g4.Text = (wordChar[3].ToString());
-                        g5.Text = (wordChar[4].ToString());
-                        g6.Text = (wordChar[5].ToString());
-                        g7.Text = (wordChar[6].ToString());
-                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -156,14 +128,6 @@ namespace _4P1W
                         a5.Left = (pnlAns.Width / 2 - a1.Width / 2) + 70;
                         break;
                     case 6:
-                        g1.Text = (wordChar[0].ToString());
-                        g2.Text = (wordChar[1].ToString());
-                        g3.Text = (wordChar[2].ToString());
-                        g4.Text = (wordChar[3].ToString());
-                        g5.Text = (wordChar[4].ToString());
-                        g6.Text = (wordChar[5].ToString());
-                        g7.Text = (wordChar[6].ToString());
-                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -178,14 +142,6 @@ namespace _4P1W
                         a6.Left = (pnlAns.Width / 2 - a2.Width / 2) + 100;
                         break;
                     case 7:
-                        g1.Text = (wordChar[0].ToString());
-                        g2.Text = (wordChar[1].ToString());
-                        g3.Text = (wordChar[2].ToString());
-                        g4.Text = (wordChar[3].ToString());
-                        g5.Text = (wordChar[4].ToString());
-                        g6.Text = (wordChar[5].ToString());
-                        g7.Text = (wordChar[6].ToString());
-                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -193,23 +149,8 @@ namespace _4P1W
                         a5.Show();
                         a6.Show();
                         a7.Show();
-                        a1.Left = (pnlAns.Width / 2 - a1.Width / 2) - 105;
-                        a2.Left = (pnlAns.Width / 2 - a1.Width / 2) - 70;
-                        a3.Left = (pnlAns.Width / 2 - a1.Width / 2) - 35;
-                        a4.Left = (pnlAns.Width / 2 - a2.Width / 2);
-                        a5.Left = (pnlAns.Width / 2 - a1.Width / 2) + 35;
-                        a6.Left = (pnlAns.Width / 2 - a1.Width / 2) + 70;
-                        a7.Left = (pnlAns.Width / 2 - a1.Width / 2) + 105;
                         break;
                     case 8:
-                        g1.Text = (wordChar[0].ToString());
-                        g2.Text = (wordChar[1].ToString());
-                        g3.Text = (wordChar[2].ToString());
-                        g4.Text = (wordChar[3].ToString());
-                        g5.Text = (wordChar[4].ToString());
-                        g6.Text = (wordChar[5].ToString());
-                        g7.Text = (wordChar[6].ToString());
-                        g8.Text = (wordChar[7].ToString());
                         a1.Show();
                         a2.Show();
                         a3.Show();
@@ -522,5 +463,7 @@ namespace _4P1W
             returnAns(a8);
             a8.Text = "";
         }
+
+
     }
 }
