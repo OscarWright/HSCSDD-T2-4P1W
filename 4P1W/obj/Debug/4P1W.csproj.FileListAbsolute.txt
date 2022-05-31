@@ -43,3 +43,10 @@ C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\de
 C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\de\PdfSharp.Charting.resources.dll
 C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csproj.CopyComplete
 C:\Users\oscar.wright1\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csprojAssemblyReference.cache
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\PdfSharp.Charting.dll
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\PdfSharp.dll
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\PdfSharp.xml
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\PdfSharp.Charting.xml
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\de\PdfSharp.resources.dll
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\bin\Debug\de\PdfSharp.Charting.resources.dll
+C:\Users\Oscar\Source\Repos\OscarWright\HSCSDD-T2-4P1W\4P1W\obj\Debug\4P1W.csproj.CopyComplete
