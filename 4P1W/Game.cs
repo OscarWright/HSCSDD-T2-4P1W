@@ -12,6 +12,17 @@ using PdfSharp.Pdf;
 using System.Diagnostics;
 using Microsoft.VisualBasic;
 
+/*
+Student Name: Oscar Wright    Grade: 12
+Assessment Task: 2    Year: 2022
+
+Declaration:
+I hereby certify that this assignment is entirely my own work, except where I have acknowledged all material and sources used in the preparation of the assignment. I certify that all typing/keystrokes have been done by me.
+
+I also certify that the material contained in the assignment has not been previously submitted by more for assessment in any formal course of study and that I have not copied in par or whole or otherwise plagiarised the work of other students and or persons. 
+
+This program is designed as a free user friendly interactive and recreational product.
+*/
 
 namespace _4P1W
 {
@@ -72,8 +83,6 @@ namespace _4P1W
 
 
                 // setting the possible guess buttons to each item in the now random array
-                // Showing the correct amount of answer buttons
-                // Centering the answer buttons (manually - I couldn't find a way to automatically do this)
                 g1.Text = (wordChar[0].ToString());
                 g2.Text = (wordChar[1].ToString());
                 g3.Text = (wordChar[2].ToString());
@@ -82,6 +91,10 @@ namespace _4P1W
                 g6.Text = (wordChar[5].ToString());
                 g7.Text = (wordChar[6].ToString());
                 g8.Text = (wordChar[7].ToString());
+
+
+                // Showing the correct amount of answer buttons
+                // Centering the answer buttons (manually - I couldn't find a way to automatically do this)
 
                 switch (wordLength)
                 {
@@ -176,6 +189,7 @@ namespace _4P1W
 
                 if (attempts == 3)
                 {
+                    //draw a message box containing hint
                     string hintMsg = ("Hint: " + hint[index]);
                     MessageBox.Show(hintMsg);
                 }
@@ -190,6 +204,7 @@ namespace _4P1W
 
         public void ScoreboardPrint()
         {
+            // get player name 
             string playerName = Interaction.InputBox("What is your name?", "Game Over", "Name", 960, 540);
 
             //Create PDF Document
@@ -413,6 +428,7 @@ namespace _4P1W
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
+            // Runs the checkAns function
             checkAns();
         }
 
