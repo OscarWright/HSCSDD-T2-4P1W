@@ -56,8 +56,6 @@
             this.a4 = new System.Windows.Forms.Button();
             this.pnlGuess = new System.Windows.Forms.Panel();
             this.btnCheck = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.timeLeft = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pic4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pic2)).BeginInit();
@@ -366,25 +364,11 @@
             this.btnCheck.UseVisualStyleBackColor = true;
             this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click);
             // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // timeLeft
-            // 
-            this.timeLeft.AutoSize = true;
-            this.timeLeft.Location = new System.Drawing.Point(344, 541);
-            this.timeLeft.Name = "timeLeft";
-            this.timeLeft.Size = new System.Drawing.Size(35, 13);
-            this.timeLeft.TabIndex = 25;
-            this.timeLeft.Text = "label1";
-            // 
             // frmGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(445, 594);
-            this.Controls.Add(this.timeLeft);
             this.Controls.Add(this.g6);
             this.Controls.Add(this.g5);
             this.Controls.Add(this.g1);
@@ -413,7 +397,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pic1)).EndInit();
             this.pnlAns.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -445,7 +428,5 @@
         private System.Windows.Forms.Button a4;
         private System.Windows.Forms.Panel pnlGuess;
         private System.Windows.Forms.Button btnCheck;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label timeLeft;
     }
 }
